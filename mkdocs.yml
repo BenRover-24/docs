@@ -1,0 +1,118 @@
+site_name: BenRover Docs 
+site_description: "Explore BenRover, a rover built by beninese engineers for mars missions !"
+site_author: 'benrover-24'
+copyright: "Copyright &copy; 2024 Tekbot Robotics"
+
+docs_dir: docs/
+
+repo_name: benrover-24/docs
+repo_url: https://github.com/benrover-24/docs
+edit_uri: tree/mkdocs/docs # Uncomment to define a different URI/URL for the "edit" option
+
+nav:
+  - Overview: index.md
+  - Project Methodologies: "methodology/index.md"
+  - Assembly: "assembly/index.md"
+  - Mechanics: "mechanics/index.md"
+  - Electronics: "electronics/index.md"
+  - IT: "it/index.md"
+  - Space Science: "space/index.md"
+
+theme:
+  name: 'material'
+  #custom_dir: 'theme'
+  favicon: 'https://raw.githubusercontent.com/BenRover-24/assets/main/brand/primary-icon.png'
+  logo: 'https://raw.githubusercontent.com/BenRover-24/assets/main/brand/white-logo.png'
+
+  palette:
+    - scheme: default
+      primary: black
+      accent: orange
+      toggle:
+          icon: material/toggle-switch-off-outline
+          name: Switch to dark mode
+
+    - scheme: slate
+      primary: black
+      accent: orange
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  
+  #language: 'en'
+  
+  # +------------------------------------------------------------------------------------------------------+
+  # |                                                                                                      |
+  # | The "direction" option is commonly used together with the "language" option.                         |
+  # |                                                                                                      |
+  # | It allows you to change the text direction from the default left-to-right (ltr) to right-to-left     |
+  # | (rtl) which is used in certain languages.                                                            |
+  # |                                                                                                      |
+  # | Read More:                                                                                           |
+  # | - https://squidfunk.github.io/mkdocs-material/setup/changing-the-language/#directionality            |
+  # |                                                                                                      |
+  # +------------------------------------------------------------------------------------------------------+
+  #direction: 'ltr'
+  
+  # +------------------------------------------------------------------------------------------------------+
+  # |                                                                                                      |
+  # | The "features" option allows you to enable specific features of Material, by adding them to the      |
+  # | list.                                                                                                |
+  # |                                                                                                      |
+  # | Features are in the format <category>.<name>. As an example, the feature to enable tabs is called    |
+  # | navigation.tabs.                                                                                     |
+  # |                                                                                                      |
+  # | The list below contains all known features of Material.                                              |
+  # |                                                                                                      |
+  # | Features marked with a * are currently Insiders-only. (Last update: 11th December 2021)              |
+  # | https://squidfunk.github.io/mkdocs-material/insiders/                                                |
+  # |                                                                                                      |
+  # | Read More:                                                                                           |
+  # | - https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/                           |
+  # |                                                                                                      |
+  # +------------------------------------------------------------------------------------------------------+
+  features:
+    - navigation.instant     # Instant loading pages.
+    #- navigation.indexes     # Attach pages directly to Sections. Incompatible with "toc.integrate"
+    #- navigation.sections    # Render top sections as groups.
+    - navigation.tabs         # Render top sections as tabs at the top.
+  
+    #- navigation.tabs.sticky # Tabs won't disappear when scrolling down. Requires "navigation.tabs".
+    - navigation.top         # Adds a "Back to top" that is shown when scrolling up.
+    #- navigation.footer
+    - navigation.tracking    # Updates the url with highlighted section anchor.
+  
+    # Search
+    #
+    - search.highlight
+  
+    # Table of Contents
+    #
+    #  - toc.integrate          # Include the TOC sections in the left navugation.
+
+  icon:
+    logo: 'material/github'
+    repo: 'material/github'
+# Customization
+# copyright: <a href="https://benrover-24.github.io/project-2" target="_blank">© 2024 BenRover Inc.</a> All rights reserved.  
+extra:
+  social:
+    - icon: 'fontawesome/brands/github'
+      link: 'https://github.com/BenRover-24'
+    - icon: 'fontawesome/brands/linkedin'
+      link: 'https://www.linkedin.com/company/tekbot-robotics'
+
+plugins:
+  - search
+  - mkdocstrings
+
+markdown_extensions:
+  - markdown.extensions.admonition:
+  - markdown.extensions.codehilite:
+      guess_lang: true
+  - markdown.extensions.toc:
+      permalink: true
