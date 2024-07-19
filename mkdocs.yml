@@ -5,8 +5,8 @@ copyright: "Copyright &copy; 2024 Tekbot Robotics"
 
 docs_dir: docs/
 
-repo_name: isheero-ai/learning-resources
-repo_url: https://github.com/isheero-ai/learning-resources
+repo_name: benrover-24/docs
+repo_url: https://github.com/benrover-24/docs
 edit_uri: tree/mkdocs/docs # Uncomment to define a different URI/URL for the "edit" option
 
 nav:
