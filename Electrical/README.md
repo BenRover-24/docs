@@ -13,7 +13,7 @@ In the electronic parts we used the following software and components.
 | Arduino MEGA | 01 | ![arduino mega](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/arduinomega.jpg) | [youpilab](https://youpilab.com/components/product/arduino-mega-2560) |
 | Raspberry pi 4 Model B | 02 | ![raspberry pi](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/raspberry.jpg) | [youpilab](https://youpilab.com/components/product/raspberry-pi4-model-ram-8giga) |
 | Servo-motor REV-41-1097  | 05 | ![servo-motor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/rev-41-1097.jpg) | [REV Robotics](https://www.revrobotics.com/rev-41-1097/) |
-| Stepper motor  | 01 | ![stepper motor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/Moteur pas à pas Nema 17.png) | [youpilab](https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48) |
+| Stepper motor  | 01 | ![stepper motor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/Moteur_pas_à_pas_Nema_17.png) | [youpilab](https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48) |
 | Motor  | 06 | ![motor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/motor.jpg) | [youpilab]() |
 | Camera  | 01 | ![camera](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/camera.jpg) | [youpilab]() |
 | Flysky FS-i6 RC  | 01 | ![Flysky FS-i6 RC](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/flysky tx.jpg) | [ici]() |
