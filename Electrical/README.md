@@ -16,7 +16,7 @@ In the electronic parts we used the following software and components.
 | Stepper motor  | 01 | ![stepper motor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/Moteur_pas_à_pas_Nema_17.png) | [youpilab](https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48) |
 | Motor  | 06 | ![motor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/motor.jpg) | [youpilab]() |
 | Camera  | 01 | ![camera](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/camera.jpg) | [youpilab]() |
-| Flysky FS-i6 RC  | 01 | ![Flysky FS-i6 RC](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/flysky tx.jpg) | [ici]() |
+| Flysky FS-i6 RC  | 01 | ![Flysky FS-i6 RC](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/flysky_tx.jpg) | [ici]() |
 | Flysky FS-iA6 (receiver)  | 01 | ![Flysky FS-iA6 (receiver)](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/receiver_flysky.jpg) | [ici]() |
 | xbox controller  | 01 | ![xbox controller](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/mannette_xbox_fil_sansfil.jpg) | [ici]() |
 | Alimentation Raspberry pi  | 02 | ![Alimentation Raspberry pi](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/alimentation_raspberry_pi_sy8205.jpg) | [youpilab](https://youpilab.com/components/product/alimentation-raspberry-pi-sy8205) |
