@@ -8,3 +8,5 @@ un capteur de poids
 La Raspberry pi doit retourner au block central la température extérieure, 
 le poids d'une boite poser à l'intérieure du rover (exemple : boit à pharmacie),
 le flux vidéo fournit par la caméra
+
+la connexion i2c entre le block central et ce block n'est pas encore gérer au niveau du code
