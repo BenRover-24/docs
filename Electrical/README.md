@@ -41,5 +41,5 @@ Waiting for the integration of ROS (Robot Operating System) and the implementati
 | ------ | ------ |
 | Channel 1 – Right Joystick, Left/Right | Controls four (04) servo motors each connected to the Rover's front and rear wheels to enable turning movements |
 | Channel 2 – Right Joystick, Up/Down | Controls six (06) motors each connected to the Rover's wheels to allow the rover to move forward and backward |
-| Channel 3 – Left Joystick, Up/Down | Controls the rotation (in two directions) of the stepper motor connected to the neck of the Rover for 360° rotational movement of the camera |
+| Channel 3 – Left Joystick, Up/Down | Control the rotation (in two directions: clockwise and counterclockwise) of the stepper motor connected to the Rover's neck for a 360° rotation of the camera |
 | Channel 4 – Left Joystick, Left/Right | Controls one (01) servo motor connected to the Rover camera block to allow tilt movements (up-down) |
