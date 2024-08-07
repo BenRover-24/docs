@@ -15,5 +15,5 @@ A l'Arduino est branché à
 
 Pour l'instant l'Arduino accueil le récepteur de la télécommande pour permettre le contrôle à distance 
  
-
+la connexion i2c entre le block central et ce block n'est pas encore gérer au niveau du code
 
