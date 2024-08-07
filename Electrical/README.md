@@ -60,7 +60,8 @@ Ackermann steering geometry suggests that during a turn, the inner wheels have a
 ![Ackermann geometry](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/formule_ackermann.png)
 
 
-L: wheelbase;
-R: turning radius;
-W: track width;
+* L: wheelbase;
+* R: turning radius;
+* W: track width;
+
 
