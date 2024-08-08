@@ -121,10 +121,10 @@ void loop() {
   if (ch1Value    > 10) {
     // Servo motors
     
-    servoW1.startEaseTo(90 + thetaInnerFront); // front wheel steer right
-    servoW2.startEaseTo(90 - thetaInnerBack); // back wheel steer left for overall steering to the right of the rover
-    servoW3.startEaseTo(90 + thetaOuterFront);
-    servoW4.startEaseTo(90 - thetaOuterBack);
+    servoW1.startEaseTo(90 - thetaOuterFront);// front wheel steer right
+    servoW2.startEaseTo(90 + thetaOuterBack); // back wheel steer left for overall steering to the right of the rover
+    servoW3.startEaseTo(90 - thetaInnerFront);
+    servoW4.startEaseTo(90 + thetaInnerBack);
 
 
     /*Serial.print("servo 1");
@@ -146,10 +146,11 @@ void loop() {
   // virage à gauche
   else if (ch1Value < -10 ) {
     // Servo motors
-    servoW1.startEaseTo(90 - thetaOuterFront);
-    servoW2.startEaseTo(90 + thetaOuterBack);
-    servoW3.startEaseTo(90 - thetaInnerFront);
-    servoW4.startEaseTo(90 + thetaInnerBack);
+    servoW1.startEaseTo(90 + thetaInnerFront); 
+    servoW2.startEaseTo(90 - thetaInnerBack); 
+    servoW3.startEaseTo(90 + thetaOuterFront);
+    servoW4.startEaseTo(90 - thetaOuterBack);
+
 
     /*Serial.print("servo 1");
     Serial.println(90 - thetaOuterFront);
