@@ -11,6 +11,7 @@ In the electronic parts we used the following software and components.
 | Designation | Number | Picture | Links/Price |
 | ------ | ------ | ------ | ------ |
 | Arduino MEGA | 01 | ![arduino mega](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/arduinomega.jpg) | [youpilab](https://youpilab.com/components/product/arduino-mega-2560) |
+| Arduino NANO | 01 | ![arduino nano](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/arduino_nano.jpg) | [youpilab](https://youpilab.com/components/product/arduino-nano-ch340 ) |
 | Raspberry pi 4 Model B | 02 | ![raspberry pi](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/raspberry.jpg) | [youpilab](https://youpilab.com/components/product/raspberry-pi4-model-ram-8giga) |
 | Servo-motor REV-41-1097  | 05 | ![servo-motor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/rev-41-1097.jpg) | [REV Robotics](https://www.revrobotics.com/rev-41-1097/) |
 | Stepper motor  | 01 | ![stepper motor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/Moteur_pas_à_pas_Nema_17.png) | [youpilab](https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48) |
@@ -27,6 +28,8 @@ In the electronic parts we used the following software and components.
 | Header pin mal | 30 | ![Header pin mal ](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/arduinomega.jpg) | [youpilab]() |
 | Flexible Heat Resistant Electrical Wire  | 06 | ![Flexible Heat Resistant Electrical Wire](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/Fil_électrique_résistant_à_la_chaleur.jpg) | [youpilab](https://youpilab.com/components/product/fil-electrique-resistant-a-la-chaleur-jaune-metre) |
 | Alimentation  | 06 | ![Alimentation](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/batterie_de_moto.jpg) | [ici]() |
+| LCD screen + i2c module | 02 | ![LCD_screen_i2c_module](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/lcd_modul_i2c.png) | [youpilab](https://youpilab.com/components/product/ecran-lcd-16x02-avec-iici2c) |
+| LM35 temperature sensor | 02 | ![LM35_temperature_sensor](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/materials/lm35.jpg) | [youpilab](https://youpilab.com/components/product/capteur-de-temperature-lm35dz) |
 
 Waiting for the integration of ROS (Robot Operating System) and the implementation of the Rover management software which will be installed on the Rover control station server, we used the Flysky FS-i6 remote control and its Flysky FS receiver -iA6 to set up the code logic and carry out the various tests (motor tests, servo-motor tests, etc.). Later, after the integration of ROS, the Flysky FS-i6 remote control and its Flysky FS-iA6 receiver will be replaced by the xbox controller which will be connected to the management software in order to allow remote control of the Rover via WI-FI.
 
@@ -38,5 +41,27 @@ Waiting for the integration of ROS (Robot Operating System) and the implementati
 | ------ | ------ |
 | Channel 1 – Right Joystick, Left/Right | Controls four (04) servo motors each connected to the Rover's front and rear wheels to enable turning movements |
 | Channel 2 – Right Joystick, Up/Down | Controls six (06) motors each connected to the Rover's wheels to allow the rover to move forward and backward |
-| Channel 3 – Left Joystick, Up/Down | Controls the rotation (in two directions) of the stepper motor connected to the neck of the Rover for 360° rotational movement of the camera |
+| Channel 3 – Left Joystick, Up/Down | Control the rotation (in two directions: clockwise and counterclockwise) of the stepper motor connected to the Rover's neck for a 360° rotation of the camera |
 | Channel 4 – Left Joystick, Left/Right | Controls one (01) servo motor connected to the Rover camera block to allow tilt movements (up-down) |
+
+# How Does the Rover Handle Turns?
+## Ackermann Steering Geometry
+
+The four steerable wheels (the two front and rear wheels) have individual steering mechanisms equipped with REV-41-1097 servo motors from REV ROBOTICS. To enhance the rover's maneuverability during turns, we applied Ackermann steering geometry to the steerable wheels. Ackermann steering geometry, widely used in the steering principles of many cars, allows the wheels to turn at different angles, optimizing turning performance and reducing tire wear.
+
+Ackermann steering geometry suggests that during a turn, the inner wheels have a larger steering angle than the outer wheels. Thus, the outer wheels describe a larger arc than the inner wheels.
+
+![Ackermann geometry](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/Ackermann-Steering-Geometry-for-Mars-Rover-with-rocker-bogie-suspension.png)
+
+
+
+
+## Mathematical principle behind Ackermann steering geometry 
+![Ackermann geometry](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/formule_ackermann.png)
+
+
+* L: wheelbase;
+* R: turning radius;
+* W: track width;
+
+
