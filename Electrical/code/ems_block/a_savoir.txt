@@ -1,0 +1,6 @@
+Ce block contient un Arduino nano connecté par i2c au block central
+A l'Arduino nano est branché un écran LCD, un capteur de température,
+
+L'Arduino nano doit retourner au block central le niveau de la batterie et la température au niveau du block
+
+la connexion i2c entre le block central et ce block n'est pas encore gérer au niveau du code

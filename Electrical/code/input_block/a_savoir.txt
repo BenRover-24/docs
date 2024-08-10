@@ -1,0 +1,12 @@
+Ce block contient une Raspberry pi 4 modèle B connectée par i2c au block central
+A la Raspberry pi est branché 
+un écran LCD pour afficher les informations des capteur,
+une camera,
+un capteur de température,
+un capteur de poids
+
+La Raspberry pi doit retourner au block central la température extérieure, 
+le poids d'une boite poser à l'intérieure du rover (exemple : boit à pharmacie),
+le flux vidéo fournit par la caméra
+
+la connexion i2c entre le block central et ce block n'est pas encore gérer au niveau du code
