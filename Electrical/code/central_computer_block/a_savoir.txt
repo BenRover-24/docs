@@ -1,0 +1,1 @@
+Ce block contient une Raspberry pi 4 Modèle B connectée par i2c aux autres blocks et par wifi avec la station de base
