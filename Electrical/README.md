@@ -51,7 +51,7 @@ The four steerable wheels (the two front and rear wheels) have individual steeri
 
 Ackermann steering geometry suggests that during a turn, the inner wheels have a larger steering angle than the outer wheels. Thus, the outer wheels describe a larger arc than the inner wheels.
 
-![Ackermann geometry](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/Ackermann-Steering-Geometry-for-Mars-Rover-with-rocker-bogie-suspension.png)
+![Ackermann geometry](https://github.com/BenRover-24/docs/blob/52dce1757c7c748563fef465cd6b0ef743e67763/Electrical/images/Ackermann-Steering-Geometry-for-Mars-Rover-with-rocker-bogie-suspension.png)
 
 
 
