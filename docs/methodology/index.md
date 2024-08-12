@@ -1,41 +1,104 @@
-<p align="center">
-  <img width="900" src="https://raw.githubusercontent.com/BenRover-24/.github/main/profile/assets/Banner.png">
-</p>
+# Project Methodologies
 
-<div align="center">
+Our team, BenRover, employs a structured approach to project management to ensure effective collaboration and timely delivery of our Mars Rover project. Here's an overview of our key methodologies
 
-Bienvenue chez BenRover - une équipe d'ingénieurs et d'étudiants passionnés du Bénin, dédiée à la conception et à la construction d'un rover pour des missions martiennes dans le cadre de l'<a href="https://cars4mars.co.za/">Africa Rover Challenge - Cars4Mars</a>.
+## Team Structure
 
-</div>
+We have organized our team into five specialized groups, each focusing on critical aspects of the rover development:
 
-## Notre mission 🚀
+1. Mechanical Engineering Team (5 members)
+2. Electrical Engineering Team (5 members)
+3. IT Team (5 members)
+4. Space Science Team (3 members)
+5. Operations/Project Management Team (5 members)
 
-Chez BenRover, notre mission est claire :
+Team members represent various universities within Benin and abroad, as well as the Sémè City Open Park.
 
-### Innover et Explorer 🌌
+## Regular Meetings
 
-- **Concevoir l'Avenir** : Nous visons à repousser les limites de l'ingénierie en développant un rover martien capable de naviguer dans des terrains difficiles et de mener des expériences scientifiques de manière autonome.
+- Weekly general body meetings every Thursday
+- Allocated Sundays for concentrated work and cross-team collaboration
 
-- **Inspirer la Prochaine Génération** : Nous nous engageons à inspirer les jeunes ingénieurs et scientifiques à travers le Bénin et l'Afrique, en leur montrant l'excitation et les possibilités de l'exploration spatiale.
+## Project Management Tools
 
-### Bâtir un Héritage Technologique 🛠️
+- Trello for task management
+- Gantt chart for project timeline visualization
+- Detailed task sheets with specific information
 
-- **Développement des Talents Locaux** : À travers notre projet, nous cherchons à renforcer les compétences en ingénierie parmi les jeunes Béninois, en favorisant une nouvelle génération d'innovateurs dans le domaine de la technologie spatiale.
+## Project Plan
 
-- **Collaboration et Excellence** : Nous nous efforçons de créer un environnement collaboratif qui encourage le partage des connaissances et l'expertise en robotique et en exploration spatiale.
+We maintain a comprehensive project plan detailing:
 
-### Promouvoir les STEM au Bénin
+- Tasks
+- Deadlines
+- Dependencies
+- Responsibilities
 
-- **Sensibilisation Éducative** : Nous collaborons avec les écoles et les communautés locales pour promouvoir l'éducation STEM, dans le but d'habiliter les futurs leaders en science et technologie.
+Our Gantt chart provides an overarching view of the project, showing:
 
-- **Avancer les Frontières Technologiques** : En participant à l'Africa Rover Challenge, nous contribuons à l'avancement des capacités technologiques et de la recherche dans notre région.
+- Duration of key tasks
+- Scheduled start times
 
-## Impliquez-vous 🤝
+## Resources
 
-Que vous soyez ingénieur, passionné d'espace ou simplement curieux de notre mission, voici plusieurs façons de nous soutenir :
+We utilize various resources for rover development:
 
-- **Suivez-nous** sur [GitHub](https://github.com/BenRover-24) pour les mises à jour sur le développement de notre rover et les progrès de la mission.
-- **Rejoignez nos Ateliers** : Participez à nos workshops et sessions de formation pour en savoir plus sur la robotique et l'exploration spatiale.
-- **Contribuez** : Si vous avez des compétences en ingénierie, en robotique ou en développement logiciel, envisagez de rejoindre notre équipe et de contribuer au succès de notre projet.
+1. **Facilities**: Sèmè City Open Park (Makerspace, Audiovisual Studio, Research Laboratory)
+2. **Equipment**: 
+   - CNC machines
+   - Soldering station
+   - Multimeters and oscilloscopes
+   - Various sensors
+   - CAD/CAM workshop
+   - Laser cutter engraver
+   - 3D printers
+3. **Tools**: Screwdrivers, calipers, hammers, mallets, heat guns, pliers, jumpers
+4. **Materials**: 
+   - 3D printing filament
+   - Plywood for laser cutting
+   - Electronic components (resistors, capacitors, diodes, sensors, actuators)
+   - Copper clad board for PCB fabrication
 
-Ensemble, nous pouvons démontrer le potentiel de l'innovation africaine dans l'exploration spatiale et l'ingénierie.
+## Support
+
+- Graduate students
+- Staff members at the Sémè City Open Park
+
+## Lessons Learned & Adaptations
+
+1. **Parts Procurement**: 
+   - Challenge: Difficulty finding specific parts locally
+   - Solution: Searching in neighboring countries, considering design updates
+
+2. **Software Learning Curve**: 
+   - Challenge: Limited ROS2 resources
+   - Solutions: 
+     - Using Docker containers for consistent development environments
+     - Investing in specialized ROS2 training
+     - Referring to available documentation and existing projects
+     - Encouraging iterative development
+
+3. **Team Coordination**: 
+   - Challenge: Organizing regular meetings with a diverse team
+   - Solutions:
+     - Established structured schedule accommodating different team members
+     - Implemented focused approach to discussions
+     - Created centralized repository for documenting insights and solutions
+
+4. **Power Management**: 
+   - Challenge: Insufficient power supply and overheating
+   - Solution: Proper sizing of power supply based on component requirements
+
+5. **Wiring and Connections**: 
+   - Challenge: Signal interference
+   - Solution: Special routing for wires to avoid interference
+
+6. **Motor Control**: 
+   - Challenge: Selecting appropriate motor drivers
+   - Solution: Extensive testing of different drivers
+
+7. **Camera Setup**: 
+   - Challenge: Initial difficulty in receiving images
+   - Solution: Persistent research and testing
+
+By implementing these methodologies and learning from our experiences, we aim to overcome challenges and deliver a successful Mars Rover for the African Rover Challenge.
