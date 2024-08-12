@@ -8,6 +8,14 @@ Bienvenue chez BenRover - une équipe d'ingénieurs et d'étudiants passionnés 
 
 </div>
 
+
+
+## Comprehensive Overview of the Rover architecture
+![Comprehensive Overview of the Rover architecture](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/rover_architecture.jpg)
+
+
+
+
 ## Notre mission 🚀
 
 Chez BenRover, notre mission est claire :
