@@ -14,7 +14,7 @@ nav:
   - Project Methodologies: "methodology/index.md"
   - Assembly: "assembly/index.md"
   - Mechanics: "mechanics/index.md"
-  - Electronics: "electronics/README.md"
+  - Electronics: "electronics/index.md"
   - IT: "it/index.md"
   - Space Science: "space/index.md"
 
@@ -40,8 +40,8 @@ theme:
         name: Switch to light mode
 
   font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
+    text: 'Inter'
+    code: 'Inter Mono'
   
   #language: 'en'
   
