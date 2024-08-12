@@ -8,14 +8,6 @@ Bienvenue chez BenRover - une équipe d'ingénieurs et d'étudiants passionnés 
 
 </div>
 
-
-
-## Comprehensive Overview of the Rover architecture
-![Comprehensive Overview of the Rover architecture](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/rover_architecture.jpg)
-
-
-
-
 ## Notre mission 🚀
 
 Chez BenRover, notre mission est claire :
@@ -37,6 +29,23 @@ Chez BenRover, notre mission est claire :
 - **Sensibilisation Éducative** : Nous collaborons avec les écoles et les communautés locales pour promouvoir l'éducation STEM, dans le but d'habiliter les futurs leaders en science et technologie.
 
 - **Avancer les Frontières Technologiques** : En participant à l'Africa Rover Challenge, nous contribuons à l'avancement des capacités technologiques et de la recherche dans notre région.
+
+
+
+
+## Comprehensive Overview of the Rover architecture
+![Comprehensive Overview of the Rover architecture](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/rover_architecture.jpg)
+
+
+
+
+
+
+
+
+
+
+
 
 ## Impliquez-vous 🤝
 
