@@ -11,4 +11,4 @@ To hit our target we decide to make an interfacing circuit between the signal pi
 
 The TIP 122 is a Darlington transistor able to amplify by 1000 the current received at his base with a collector current of 0.5 A at 3 V as mentioned in a table of the datasheet where below. Note that the current limit is of 5 A. ![Datasheet TIP122](https://github.com/Mahudjro369/MyBenrover2024/blob/main/docs/electronics/images/other/Datasheet%20TIP122.jpg)
 
-Additionally, the TIP122 can switch signal at a maximum frequency of 1 MHz. This is enough to transmit while amplifying the PWM pulses from the Arduino Mega board to the servo-motors. Where is the schematic realized on each signal pin.![Servo motor interfacing schematic]
+Additionally, the TIP122 can switch signal at a maximum frequency of 1 MHz. This is enough to transmit while amplifying the PWM pulses from the Arduino Mega board to the servo-motors. Where is the schematic realized on each signal pin.![Servo motor interfacing schematic](https://github.com/Mahudjro369/MyBenrover2024/blob/main/docs/electronics/images/other/Servo%20motor%20interfacing%20schematic.jpg)
