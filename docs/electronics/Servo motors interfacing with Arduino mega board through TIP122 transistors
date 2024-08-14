@@ -1,3 +1,4 @@
+#Servo motors interfacing with Arduino mega board through TIP122 transistors
 The wheels at the corners of the Benrover are equiped with four Rev Smart Robotic Servo ![rev-41-1097](https://github.com/Mahudjro369/MyBenrover2024/blob/main/docs/electronics/images/materials/rev-41-1097.jpg) 
 Those servo motors that we are using as specified by the constructor in the electrical specifications's table on the following page [Smart Robot Servo Specifications](https://docs.revrobotics.com/rev-crossover-products/servo/srs), have a stall current of 2 A at 6V. 
 This means that each one can take 2 A current at maximum load from its supply source and need a PWM pulse range from 500 µs to 2500 µs from a microcontroller to be driven.
