@@ -3,7 +3,7 @@
 
 
 ServoEasing servoCamTilt; 
-AccelStepper camPanStepper(1, 27, 28);  //(Type:driver, STEP, DIR) - Stepper1
+AccelStepper camPanStepper(1, 22, 24);  //(Type:driver, STEP, DIR) - Stepper1
 
 
 int camTilt = 90; //pour l'inclinaison de la caméra haut-bas la position initile du servo moteur est de 90 degree
@@ -41,7 +41,7 @@ void setup() {
   
   
 
-  servoCamTilt.attach(26);
+  servoCamTilt.attach(31);
 
   servoCamTilt.write(90); //angle initial 90
 

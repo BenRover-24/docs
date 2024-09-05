@@ -36,41 +36,40 @@ float W_Back = 590.4;
 
 
 // J1
-int EnA = 4;
+int EnA =4;
 // J2
-int EnB = 11;
+int EnB =7;
 // J3
-int EnC = 7;
+int EnC =10;
 // J4
-int EnD = 12;
+int EnD=11;
 // J5
-int EnE = 10;
+int EnE=12;
 // J6
-int EnF = 13;
+int EnF=13;
 
 
 // Motor1_left_front  J1
-const int motor1Pin1 = 2;
-const int motor1Pin2 = 3;
-// Motor2_left_middle J3
-const int motor3Pin1 = 5;
-const int motor3Pin2 = 6;
-// Motor3_left_back J5
-const int motor5Pin1 = 8;
-const int motor5Pin2 = 9;
-//Motor4_right_front J2
-const int motor2Pin1 = 32;
-const int motor2Pin2 = 33;
-// Motor5_right_middle  J4
-const int motor4Pin1 = 34;
+const int motor1Pin1 = 2;  
+const int motor1Pin2 = 3;  
+// Motor2_left_middle J2
+const int motor2Pin1 = 5;
+const int motor2Pin2= 6;
+// Motor3_left_back J3
+const int motor3Pin1 = 8;
+const int motor3Pin2 = 9;
+//Motor4_right_front J4
+const int motor4Pin1 = 33;
 const int motor4Pin2 = 35;
+// Motor5_right_middle  J5
+const int motor5Pin1 = 37;
+const int motor5Pin2 = 39;
 // Motor6_right_back J6
-const int motor6Pin1 = 36;
-const int motor6Pin2 = 37;
-
+const int motor6Pin1 = 45;
+const int motor6Pin2 = 47;
 
 ServoEasing servoCamTilt;
-AccelStepper camPanStepper(1, 27, 28);  //(Type:driver, STEP, DIR) - Stepper1
+AccelStepper camPanStepper(1, 22, 24);  //(Type:driver, STEP, DIR) - Stepper1
 
 int camTilt = 90;  //pour l'inclinaison de la caméra haut-bas la position initile du servo moteur est de 90 degree
 int camPan = 0;    // vitesse du moteur pas à pas
@@ -106,13 +105,13 @@ void setup() {
   //initialisation des pins de l'arduino pour chaque servomoteur
 
   //servo1 left-front
-  servoW1.attach(22);  //pin 22 de l'arduino
+  servoW1.attach(23); //pin 23 de l'arduino
   //servo2 left-back
-  servoW2.attach(23);
+  servoW2.attach(25);
   //servo3 Right-front
-  servoW3.attach(24);
+  servoW3.attach(27);
   //servo4 Right-back
-  servoW4.attach(25);
+  servoW4.attach(29);
 
   //angle initial des servomoteur 90°
   servoW1.write(90);
@@ -150,7 +149,7 @@ void setup() {
 
 
 
-  servoCamTilt.attach(26);
+  servoCamTilt.attach(31);
   servoCamTilt.write(90);           //angle initial 90
   servoCamTilt.setSpeed(200);       //vitesse
   camPanStepper.setMaxSpeed(1000);  //vitesse max du moteur pas à pas
