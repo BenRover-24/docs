@@ -54,7 +54,7 @@ Ackermann steering geometry suggests that during a turn, the inner wheels have a
 ![Ackermann geometry](https://raw.githubusercontent.com/BenRover-24/docs/electrical/Electrical/images/Ackermann-Steering-Geometry-for-Mars-Rover-with-rocker-bogie-suspension.png)
 
 ### Mathematical principle behind Ackermann steering geometry 📐
-![Ackermann geometry](https://raw.githubusercontent.com/iudhael/benrover-docs/electrical/Electrical/images/formule_ackermann.png)
+![Ackermann geometry](https://raw.githubusercontent.com/iudhael/benrover-docs/electrical/Electrical/images/Ackermann-Steering-Geometry-for-Mars-Rover-with-rocker-bogie-suspension.png)
 
 * L: wheelbase;
 * R: turning radius;
