@@ -16,13 +16,13 @@ int ch2Value;
 // J1
 int EnA =4;
 // J2
-int EnB =11;
+int EnB =7;
 // J3
-int EnC =7;
+int EnC =10;
 // J4
-int EnD=12;
+int EnD=11;
 // J5
-int EnE=10;
+int EnE=12;
 // J6
 int EnF=13;
 
@@ -30,21 +30,21 @@ int EnF=13;
 // Motor1_left_front  J1
 const int motor1Pin1 = 2;  
 const int motor1Pin2 = 3;  
-// Motor2_left_middle J3
-const int motor3Pin1 = 5;
-const int motor3Pin2= 6;
-// Motor3_left_back J5
-const int motor5Pin1 = 8;
-const int motor5Pin2 = 9;
-//Motor4_right_front J2
-const int motor2Pin1 = 32;
-const int motor2Pin2 = 33;
-// Motor5_right_middle  J4
-const int motor4Pin1 = 34;
+// Motor2_left_middle J2
+const int motor2Pin1 = 5;
+const int motor2Pin2= 6;
+// Motor3_left_back J3
+const int motor3Pin1 = 8;
+const int motor3Pin2 = 9;
+//Motor4_right_front J4
+const int motor4Pin1 = 33;
 const int motor4Pin2 = 35;
+// Motor5_right_middle  J5
+const int motor5Pin1 = 37;
+const int motor5Pin2 = 39;
 // Motor6_right_back J6
-const int motor6Pin1 = 36;
-const int motor6Pin2 = 37;
+const int motor6Pin1 = 45;
+const int motor6Pin2 = 47;
 
 // Cette fonction permet de lire la valeur des entrées analogiques (Les joysticks de la telecommandes)  
 // cecode receptionne la valeurs des joystick de la telecommande et les faits correcpondre à dans une autre plage

@@ -57,13 +57,13 @@ void setup() {
   //initialisation des pins de l'arduino pour chaque servomoteur
 
   //servo1 left-front
-  servoW1.attach(22); //pin 22 de l'arduino
+  servoW1.attach(23); //pin 23 de l'arduino
   //servo2 left-back
-  servoW2.attach(23);
+  servoW2.attach(25);
   //servo3 Right-front
-  servoW3.attach(24);
+  servoW3.attach(27);
   //servo4 Right-back
-  servoW4.attach(25);
+  servoW4.attach(29);
 
   //angle initial des servomoteur 90°
   servoW1.write(90);
