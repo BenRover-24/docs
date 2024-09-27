@@ -41,7 +41,7 @@ For efficient power system management, we have opted for the following configura
 
 With our current power supply we have a capacity of 10 Ah (Capacity = current * time), offering a maximum autonomy of 5 hours if the system consumption reaches 2A. However, this autonomy can be reduced by various factors, such as variations in component consumption, circuit losses, and temperature fluctuations.
 
-![battery block](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/ems_block2.jpg)
+![battery block](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/ems_block2.jpg)
 
 
 # Command System
@@ -80,9 +80,10 @@ Additionally, the TIP122 can switch signal at a maximum frequency of 1 MHz. This
 
 # Navigation System : Radio Command
 
+
 Waiting for the integration of ROS (Robot Operating System) and the implementation of the Rover management software, which will be installed on the Rover control station server, we used the Flysky FS-i6 remote control and its Flysky FS receiver -iA6 to set up the code logic and carry out the various tests (motor tests, servo-motor tests, etc.). Later, after the integration of ROS, the Flysky FS-i6 remote control and its Flysky FS-iA6 receiver will be replaced by the Xbox controller, which will be connected to the management software to allow remote control of the Rover via WI-FI.
 
-![flysky joystick](https://raw.githubusercontent.com/iudhael/benrover-docs/electrical/Electrical/images/fs-i6.gif)
+![flysky joystick](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/fs-i6.gif)
 
 ## How the Flysky FS-I6 works? 🎮
 | Channel | Usages |
@@ -142,11 +143,11 @@ The control station will be connected on the same network as the Raspberry Pi wh
   *  Width : 1280
   *  Height : 720
 
-![Live feed from camera](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/cam.png)
+![Live feed from camera](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/cam.png)
 
-![Live feed from camera](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/live1.png)
+![Live feed from camera](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/live1.png)
 
-![Live feed from camera](https://github.com/iudhael/benrover-docs/blob/electrical/Electrical/images/live2.png)
+![Live feed from camera](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/live2.png)
 
 
 
