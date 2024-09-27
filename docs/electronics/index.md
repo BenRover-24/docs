@@ -16,7 +16,7 @@ In the electronic parts, we used the following software and components.
 | Raspberry pi 4 Model B | 02 | ![raspberry pi](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/raspberry.jpg) | [YoupiLab](https://youpilab.com/components/product/raspberry-pi4-model-ram-8giga) |
 | Servo-motor REV-41-1097 | 05 | ![servo-motor](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/rev-41-1097.jpg) | [REV Robotics](https://www.revrobotics.com/rev-41-1097/) |
 | Stepper motor | 01 | ![stepper motor](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/Moteur_pas_%C3%A0_pas_Nema_17.png) | [YoupiLab](https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48) |
-| Motor | 06 | ![motor](https://raw.githubusercontent.com/iudhael/benrover-docs/electrical/Electrical/images/materials/motor.jpg) | [YoupiLab]() |
+| Motor | 06 | ![motor](https://raw.githubusercontent.com/benrover-24/docs/main/docs/electronics/images/materials/motor.jpg) | [YoupiLab]() |
 | Camera | 01 | ![camera](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/camera.jpg) | [YoupiLab]() |
 | Flysky FS-i6 RC | 01 | ![Flysky FS-i6 RC](https://raw.githubusercontent.com/benrover-24/docs/main/docs/electronics/images/materials/flysky_tx.jpg) | [Link]() |
 | Flysky FS-iA6 (receiver) | 01 | ![Flysky FS-iA6 (receiver)](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/receiver_flysky.jpg) | [Link]() |
@@ -33,7 +33,7 @@ In the electronic parts, we used the following software and components.
 
 Waiting for the integration of ROS (Robot Operating System) and the implementation of the Rover management software, which will be installed on the Rover control station server, we used the Flysky FS-i6 remote control and its Flysky FS receiver -iA6 to set up the code logic and carry out the various tests (motor tests, servo-motor tests, etc.). Later, after the integration of ROS, the Flysky FS-i6 remote control and its Flysky FS-iA6 receiver will be replaced by the Xbox controller, which will be connected to the management software to allow remote control of the Rover via WI-FI.
 
-![flysky joystick](https://raw.githubusercontent.com/iudhael/benrover-docs/electrical/Electrical/images/fs-i6.gif)
+![flysky joystick](https://raw.githubusercontent.com/benrover-24/docs/main/docs/electronics/images/fs-i6.gif)
 
 ## How the Flysky FS-I6 works? 🎮
 | Channel | Usages |
