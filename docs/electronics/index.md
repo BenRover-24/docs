@@ -16,7 +16,7 @@ In the electronic parts, we used the following software and components.
 | Raspberry pi 4 Model B | 02 | ![raspberry pi](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/raspberry.jpg) | [YoupiLab](https://youpilab.com/components/product/raspberry-pi4-model-ram-8giga) |
 | Servo-motor REV-41-1097 | 05 | ![servo-motor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/rev-41-1097.jpg) | [REV Robotics](https://www.revrobotics.com/rev-41-1097/) |
 | Stepper motor | 01 | ![stepper motor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/Moteur_pas_%C3%A0_pas_Nema_17.png) | [YoupiLab](https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48) |
-| Motor | 06 | ![motor](https://raw.githubusercontent.com/iudhael/benrover-docs/electrical/Electrical/images/materials/motor.jpg) | [YoupiLab]() |
+| Continuous Motor (XD37GB-555YSY 50rpm)  | 06 | ![motor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/motor.jpg) | [YoupiLab]() |
 | Camera | 01 | ![camera](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/camera.jpg) | [YoupiLab]() |
 | Flysky FS-i6 RC | 01 | ![Flysky FS-i6 RC](https://raw.githubusercontent.com/benrover-24/docs/main/docs/electronics/images/materials/flysky_tx.jpg) | [Link]() |
 | Flysky FS-iA6 (receiver) | 01 | ![Flysky FS-iA6 (receiver)](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/receiver_flysky.jpg) | [Link]() |
