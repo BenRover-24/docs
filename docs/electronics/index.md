@@ -4,32 +4,32 @@ In the electronic parts, we used the following software and components.
 ## Software 💻
 | Designation | Logos | Usages |
 | ------ | ------ | ------ |
-| Arduino IDE | ![Arduino ide](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/software/IDE%20arduino.jpeg) | Using the Arduino IDE made programming the Arduino Mega easier. |
-| KiCad | ![KiCad](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/software/Kicad_logo_new.png) | The entry of the electrical diagram and the creation of the printed circuit were carried out on KiCad, which is a suite of free software for drawing electronic diagrams and designing printed circuits, offering a 3D visualization of our PCB and other tools necessary for the design of electronic circuits. |
-| Fritzing | ![Fritzing](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/software/fritzing.png) | Using Fritzing, an electronic circuit design software, allowed us to create an overview of the different connections between the project components. |
+| Arduino IDE | ![Arduino ide](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/IDE%20arduino.jpeg) | Using the Arduino IDE made programming the Arduino Mega easier. |
+| KiCad | ![KiCad](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/Kicad_logo_new.png) | The entry of the electrical diagram and the creation of the printed circuit were carried out on KiCad, which is a suite of free software for drawing electronic diagrams and designing printed circuits, offering a 3D visualization of our PCB and other tools necessary for the design of electronic circuits. |
+| Fritzing | ![Fritzing](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/fritzing.png) | Using Fritzing, an electronic circuit design software, allowed us to create an overview of the different connections between the project components. |
 
 ## Materials 🛠️
 | Designation | Number | Picture | Links/Price |
 | ------ | ------ | ------ | ------ |
-| Arduino MEGA | 01 | ![arduino mega](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/arduinomega.jpg) | [YoupiLab](https://youpilab.com/components/product/arduino-mega-2560) |
-| Arduino NANO | 01 | ![arduino nano](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/arduino_nano.jpg) | [YoupiLab](https://youpilab.com/components/product/arduino-nano-ch340) |
-| Raspberry pi 4 Model B | 02 | ![raspberry pi](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/raspberry.jpg) | [YoupiLab](https://youpilab.com/components/product/raspberry-pi4-model-ram-8giga) |
-| Servo-motor REV-41-1097 | 05 | ![servo-motor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/rev-41-1097.jpg) | [REV Robotics](https://www.revrobotics.com/rev-41-1097/) |
-| Stepper motor | 01 | ![stepper motor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/Moteur_pas_%C3%A0_pas_Nema_17.png) | [YoupiLab](https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48) |
+| Arduino MEGA | 01 | ![arduino mega](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/arduinomega.jpg) | [YoupiLab](https://youpilab.com/components/product/arduino-mega-2560) |
+| Arduino NANO | 01 | ![arduino nano](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/arduino_nano.jpg) | [YoupiLab](https://youpilab.com/components/product/arduino-nano-ch340) |
+| Raspberry pi 4 Model B | 02 | ![raspberry pi](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/raspberry.jpg) | [YoupiLab](https://youpilab.com/components/product/raspberry-pi4-model-ram-8giga) |
+| Servo-motor REV-41-1097 | 05 | ![servo-motor](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/rev-41-1097.jpg) | [REV Robotics](https://www.revrobotics.com/rev-41-1097/) |
+| Stepper motor | 01 | ![stepper motor](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/Moteur_pas_%C3%A0_pas_Nema_17.png) | [YoupiLab](https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48) |
 | Motor | 06 | ![motor](https://raw.githubusercontent.com/iudhael/benrover-docs/electrical/Electrical/images/materials/motor.jpg) | [YoupiLab]() |
-| Camera | 01 | ![camera](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/camera.jpg) | [YoupiLab]() |
+| Camera | 01 | ![camera](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/camera.jpg) | [YoupiLab]() |
 | Flysky FS-i6 RC | 01 | ![Flysky FS-i6 RC](https://raw.githubusercontent.com/benrover-24/docs/main/docs/electronics/images/materials/flysky_tx.jpg) | [Link]() |
-| Flysky FS-iA6 (receiver) | 01 | ![Flysky FS-iA6 (receiver)](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/receiver_flysky.jpg) | [Link]() |
-| A4988 stepper motor driver | 01 | ![A4988](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/A4988_Stepper_Motor_Driver.jpeg) | [YoupiLab](https://youpilab.com/components/product/a4988-stepper-motor-driver) |
-| TIP 122 | 06 | ![TIP](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/TIP122.jpg) | [YoupiLab](https://youpilab.com/components/product/transistor-darlington-tip122) |
-| Terminal block | 30 | ![T-block](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/T-block.jpg) | [YoupiLab](https://youpilab.com/components/product/bornier-2-broches) |
-| Header pin male | 30 | ![Header pin male](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/header_pin_mal.jpg) | [YoupiLab]() |
-| Header pin female | 30 | ![Header pin male](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/header_pin_femel.jpg) | [YoupiLab]() |
-| Flexible Heat Resistant Electrical Wire | 06 | ![Flexible Heat Resistant Electrical Wire](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/Fil_%C3%A9lectrique_r%C3%A9sistant_%C3%A0_la_chaleur.jpg) | [YoupiLab](https://youpilab.com/components/product/fil-electrique-resistant-a-la-chaleur-jaune-metre) |
-| Alimentation | 06 | ![Alimentation](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/batterie_de_moto.jpg) | [Link]() |
-| LCD screen + i2c module | 02 | ![LCD_screen_i2c_module](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/lcd_modul_i2c.png) | [YoupiLab](https://youpilab.com/components/product/ecran-lcd-16x02-avec-iLink2c) |
-| LM35 temperature sensor | 02 | ![LM35_temperature_sensor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/lm35.jpg) | [YoupiLab](https://youpilab.com/components/product/capteur-de-temperature-lm35dz) |
-| MPU6050 | 02 | ![MPU6050_sensor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/mpu.png) | [ici]() |
+| Flysky FS-iA6 (receiver) | 01 | ![Flysky FS-iA6 (receiver)](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/receiver_flysky.jpg) | [Link]() |
+| A4988 stepper motor driver | 01 | ![A4988](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/A4988_Stepper_Motor_Driver.jpeg) | [YoupiLab](https://youpilab.com/components/product/a4988-stepper-motor-driver) |
+| TIP 122 | 06 | ![TIP](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/TIP122.jpg) | [YoupiLab](https://youpilab.com/components/product/transistor-darlington-tip122) |
+| Terminal block | 30 | ![T-block](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/T-block.jpg) | [YoupiLab](https://youpilab.com/components/product/bornier-2-broches) |
+| Header pin male | 30 | ![Header pin male](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/header_pin_mal.jpg) | [YoupiLab]() |
+| Header pin female | 30 | ![Header pin male](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/header_pin_femel.jpg) | [YoupiLab]() |
+| Flexible Heat Resistant Electrical Wire | 06 | ![Flexible Heat Resistant Electrical Wire](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/Fil_%C3%A9lectrique_r%C3%A9sistant_%C3%A0_la_chaleur.jpg) | [YoupiLab](https://youpilab.com/components/product/fil-electrique-resistant-a-la-chaleur-jaune-metre) |
+| Alimentation | 06 | ![Alimentation](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/batterie_de_moto.jpg) | [Link]() |
+| LCD screen + i2c module | 02 | ![LCD_screen_i2c_module](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/lcd_modul_i2c.png) | [YoupiLab](https://youpilab.com/components/product/ecran-lcd-16x02-avec-iLink2c) |
+| LM35 temperature sensor | 02 | ![LM35_temperature_sensor](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/lm35.jpg) | [YoupiLab](https://youpilab.com/components/product/capteur-de-temperature-lm35dz) |
+| MPU6050 | 02 | ![MPU6050_sensor](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/mpu.png) | [ici]() |
 
 Waiting for the integration of ROS (Robot Operating System) and the implementation of the Rover management software, which will be installed on the Rover control station server, we used the Flysky FS-i6 remote control and its Flysky FS receiver -iA6 to set up the code logic and carry out the various tests (motor tests, servo-motor tests, etc.). Later, after the integration of ROS, the Flysky FS-i6 remote control and its Flysky FS-iA6 receiver will be replaced by the Xbox controller, which will be connected to the management software to allow remote control of the Rover via WI-FI.
 
