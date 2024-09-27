@@ -29,10 +29,10 @@ int r = 0; // turning radius
 float thetaInnerFront, thetaInnerBack, thetaOuterFront, thetaOuterBack = 0;
 
 
-float L_Front = 600; //distance en mm
-float L_Back = 600; 
-float W_Front = 590.4; 
-float W_Back = 590.4; 
+float L_Front = 301.80732; //distance en mm
+float L_Back = 301.80732; 
+float W_Front = 335.878644; 
+float W_Back = 335.878644; 
 
 
 
