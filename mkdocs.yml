@@ -12,17 +12,17 @@ edit_uri: tree/mkdocs/docs # Uncomment to define a different URI/URL for the "ed
 nav:
   - Overview: index.md
   - Project Methodologies: "methodology/index.md"
-  - Assembly: "assembly/index.md"
-  - Mechanics: "mechanics/index.md"
+  #- Assembly: "assembly/index.md"
   - Electronics: "electronics/index.md"
   - IT: "it/index.md"
-  - Space Science: "space/index.md"
+  - Mechanics: "mechanics/index.md"
+  #- Space Science: "space/index.md"
 
 theme:
   name: 'material'
   #custom_dir: 'theme'
-  favicon: 'https://raw.githubusercontent.com/BenRover-24/assets/main/brand/primary-icon.png'
-  logo: 'https://raw.githubusercontent.com/BenRover-24/assets/main/brand/white-logo.png'
+  favicon: 'https://raw.githubusercontent.com/BenRover-24/assets/main/brand/Fav_icon_fond_blanc_Benrover_proposition.png'
+  logo: 'https://raw.githubusercontent.com/BenRover-24/assets/refs/heads/main/brand/BenRover-long_blanc.svg'
 
   palette:
     - scheme: default

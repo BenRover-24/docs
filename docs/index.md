@@ -1,17 +1,13 @@
 <p align="center">
-  <img width="900" src="https://raw.githubusercontent.com/BenRover-24/.github/main/profile/assets/Banner.png">
+  <img width="900" src="./assets/banner-home-docs.png">
 </p>
 
 <div align="center">
-
-Bienvenue chez BenRover - une équipe d'ingénieurs et d'étudiants passionnés du Bénin, dédiée à la conception et à la construction d'un rover pour des missions martiennes dans le cadre de l'<a href="https://cars4mars.co.za/">Africa Rover Challenge - Cars4Mars</a>.
-
+BenRover - a team of passionate engineers and students from Benin, dedicated to designing and building a rover for Mars missions as part of the <a href=“https://cars4mars.co.za/”>Africa Rover Challenge - Cars4Mars</a>.
 </div>
 
-
-
 ## Comprehensive Overview of the Rover architecture
-![Comprehensive Overview of the Rover architecture img](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/rover_architecture.jpg)
+![Comprehensive Overview of the Rover architecture img](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/rover_architecture.jpg)
 
 The Rover Architecture depicted in the image below is a diagram of how the different components of our Rover will interact together. We have 5 main types of components in our system. Here’s an explanation of each component and their interactions:
 
@@ -43,43 +39,36 @@ These nodes interact via the ROS Master, which facilitates the discovery and com
 
 Each component in this architecture works in an integrated manner to achieve the mission objectives of the rover, while providing the necessary flexibility to adapt to the changing requirements of simulated environments and assigned tasks.
 
+---
 
+## Our mission 🚀
 
+Our mission is clear:
 
+### Innovate and Explore 🌌
 
+- **Designing the Future**: We aim to push the boundaries of engineering by developing a Mars rover capable of navigating challenging terrain and conducting scientific experiments autonomously.
 
+- Inspire the Next Generation**: We are committed to inspiring young engineers and scientists across Benin and Africa, by showing them the excitement and possibilities of space exploration.
 
+### Building a Technological Legacy 🛠️
 
-## Notre mission 🚀
+- Local Talent Development**: Through our project, we aim to strengthen engineering skills among young Beninese, fostering a new generation of innovators in space technology.
 
-Chez BenRover, notre mission est claire :
+- Collaboration and Excellence**: We strive to create a collaborative environment that encourages the sharing of knowledge and expertise in robotics and space exploration.
 
-### Innover et Explorer 🌌
+### Promoting STEM in Benin
 
-- **Concevoir l'Avenir** : Nous visons à repousser les limites de l'ingénierie en développant un rover martien capable de naviguer dans des terrains difficiles et de mener des expériences scientifiques de manière autonome.
+- Educational Outreach**: We collaborate with schools and local communities to promote STEM education, with the aim of empowering future leaders in science and technology.
 
-- **Inspirer la Prochaine Génération** : Nous nous engageons à inspirer les jeunes ingénieurs et scientifiques à travers le Bénin et l'Afrique, en leur montrant l'excitation et les possibilités de l'exploration spatiale.
+- Advancing Technological Frontiers**: By participating in the Africa Rover Challenge, we contribute to the advancement of technological capabilities and research in our region.
 
-### Bâtir un Héritage Technologique 🛠️
+## Get involved 🤝
 
-- **Développement des Talents Locaux** : À travers notre projet, nous cherchons à renforcer les compétences en ingénierie parmi les jeunes Béninois, en favorisant une nouvelle génération d'innovateurs dans le domaine de la technologie spatiale.
+Whether you're an engineer, space enthusiast or just curious about our mission, here are several ways to support us:
 
-- **Collaboration et Excellence** : Nous nous efforçons de créer un environnement collaboratif qui encourage le partage des connaissances et l'expertise en robotique et en exploration spatiale.
+- **Follow us** on [GitHub](https://github.com/BenRover-24) for updates on our rover development and mission progress.
+- **Join our Workshops**: Attend our workshops and training sessions to learn more about robotics and space exploration.
+- **Contribute**: If you have skills in engineering, robotics or software development, consider joining our team and contributing to the success of our project.
 
-### Promouvoir les STEM au Bénin
-
-- **Sensibilisation Éducative** : Nous collaborons avec les écoles et les communautés locales pour promouvoir l'éducation STEM, dans le but d'habiliter les futurs leaders en science et technologie.
-
-- **Avancer les Frontières Technologiques** : En participant à l'Africa Rover Challenge, nous contribuons à l'avancement des capacités technologiques et de la recherche dans notre région.
-
-
-
-## Impliquez-vous 🤝
-
-Que vous soyez ingénieur, passionné d'espace ou simplement curieux de notre mission, voici plusieurs façons de nous soutenir :
-
-- **Suivez-nous** sur [GitHub](https://github.com/BenRover-24) pour les mises à jour sur le développement de notre rover et les progrès de la mission.
-- **Rejoignez nos Ateliers** : Participez à nos workshops et sessions de formation pour en savoir plus sur la robotique et l'exploration spatiale.
-- **Contribuez** : Si vous avez des compétences en ingénierie, en robotique ou en développement logiciel, envisagez de rejoindre notre équipe et de contribuer au succès de notre projet.
-
-Ensemble, nous pouvons démontrer le potentiel de l'innovation africaine dans l'exploration spatiale et l'ingénierie.
+Together, we can demonstrate the potential of African innovation in space exploration and engineering.
