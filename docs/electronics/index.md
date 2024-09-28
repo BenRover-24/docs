@@ -6,6 +6,8 @@ In the electronic parts, we used the following software and components.
 | ------ | ------ | ------ |
 | Arduino IDE | ![Arduino ide](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/software/IDE%20arduino.jpeg) | Using the Arduino IDE made programming the Arduino Mega easier. |
 | KiCad | ![KiCad](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/software/Kicad_logo_new.png) | The entry of the electrical diagram and the creation of the printed circuit were carried out on KiCad, which is a suite of free software for drawing electronic diagrams and designing printed circuits, offering a 3D visualization of our PCB and other tools necessary for the design of electronic circuits. |
+| FlatCAM | ![FlatCAM](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/software/flatcam.png) | Flatcam is a software for generating the CNC jobs  G-codes. |
+| Candle | ![Candle](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/software/Candle_cnc.png) |Candle is a software for controlling the CNC machine.|
 | Fritzing | ![Fritzing](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/software/fritzing.png) | Using Fritzing, an electronic circuit design software, allowed us to create an overview of the different connections between the project components. |
 
 ## Materials 🛠️
