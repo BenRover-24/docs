@@ -28,10 +28,13 @@ In the electronic parts, we used the following software and components.
 | Header pin male | 30 | ![Header pin male](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/header_pin_mal.jpg) | [YoupiLab]() |
 | Header pin female | 30 | ![Header pin male](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/header_pin_femel.jpg) | [YoupiLab]() |
 | Flexible Heat Resistant Electrical Wire | 06 | ![Flexible Heat Resistant Electrical Wire](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/Fil_%C3%A9lectrique_r%C3%A9sistant_%C3%A0_la_chaleur.jpg) | [YoupiLab](https://youpilab.com/components/product/fil-electrique-resistant-a-la-chaleur-jaune-metre) |
+| Grove wire (3 and 4 pins) 1 m | 10 | ![Grove wire](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/grove_wire.jpg) | [ici]() |
 | Alimentation | 06 | ![Alimentation](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/batterie_de_moto.jpg) | [Link]() |
 | LCD screen + i2c module | 02 | ![LCD_screen_i2c_module](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/lcd_modul_i2c.png) | [YoupiLab](https://youpilab.com/components/product/ecran-lcd-16x02-avec-iLink2c) |
 | LM35 temperature sensor | 02 | ![LM35_temperature_sensor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/lm35.jpg) | [YoupiLab](https://youpilab.com/components/product/capteur-de-temperature-lm35dz) |
 | MPU6050 | 02 | ![MPU6050_sensor](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/mpu.png) | [ici]() |
+| Copper plate for pcb | 04 | ![copper plate for pcb](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/materials/plaque_cuivree.jpg) | [ici]() |
+
 
 
 # Power Management System
