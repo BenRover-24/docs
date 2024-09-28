@@ -1,0 +1,19 @@
+{
+  "battery": {
+    "temperature": 25.0,
+    "level": 85
+  },
+  "sensors": {
+    "temperature": 23.5,
+    "accelerometer": {
+      "x": 0.12,
+      "y": -0.05,
+      "z": 0.98
+    },
+    "gyroscope": {
+      "x": 0.03,
+      "y": 0.01,
+      "z": -0.02
+    }
+  }
+}

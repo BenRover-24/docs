@@ -1,0 +1,19 @@
+Confère la documentation de notre équipe pour un peu plus de détail
+
+Ce block contient un Arduino MEGA connecté par i2c au block central
+A l'Arduino est branché à
+
+04 servo-moteurs : pour diriger le rover dans les virages suivant le principe de la géométrie d'Ackermann
+
+06 drivers pour le control des moteurs,
+06 moteurs : pour faire avancer et reculer le rover,
+
+01 servo-moteur : pour les mouvement d'inclinaison de la caméra (haut-bas)
+01 moteurs pas à pas pour un mouvement  de rotation sur 360° du block de la camera dans deux sens celle d'une horloge et le sens inverse
+
+
+
+Pour l'instant l'Arduino accueil le récepteur de la télécommande pour permettre le contrôle à distance 
+ 
+la connexion i2c entre le block central et ce block n'est pas encore gérer au niveau du code
+

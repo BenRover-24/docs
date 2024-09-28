@@ -1,0 +1,1125 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Explore BenRover, a rover built by beninese engineers for mars missions !">
+      
+      
+        <meta name="author" content="benrover-24">
+      
+      
+      
+        <link rel="prev" href="../methodology/">
+      
+      
+        <link rel="next" href="../it/">
+      
+      
+      <link rel="icon" href="https://raw.githubusercontent.com/BenRover-24/assets/main/brand/Fav_icon_fond_blanc_Benrover_proposition.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.38">
+    
+    
+      
+        <title>Electronics - BenRover Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,700,700i%7CInter+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"Inter Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/_mkdocstrings.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#electronics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="BenRover Docs" class="md-header__button md-logo" aria-label="BenRover Docs" data-md-component="logo">
+      
+  <img src="https://raw.githubusercontent.com/BenRover-24/assets/refs/heads/main/brand/BenRover-long_blanc.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            BenRover Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Electronics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/benrover-24/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    benrover-24/docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../methodology/" class="md-tabs__link">
+        
+  
+    
+  
+  Project Methodologies
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+    
+  
+  Electronics
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../it/" class="md-tabs__link">
+        
+  
+    
+  
+  IT
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../mechanics/" class="md-tabs__link">
+        
+  
+    
+  
+  Mechanics
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="BenRover Docs" class="md-nav__button md-logo" aria-label="BenRover Docs" data-md-component="logo">
+      
+  <img src="https://raw.githubusercontent.com/BenRover-24/assets/refs/heads/main/brand/BenRover-long_blanc.svg" alt="logo">
+
+    </a>
+    BenRover Docs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/benrover-24/docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"/></svg>
+  </div>
+  <div class="md-source__repository">
+    benrover-24/docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../methodology/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project Methodologies
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Electronics
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Electronics
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software 💻
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materials 🛠️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-management-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Management System
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#command-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command System
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servo-motors-interfacing-with-arduino-mega-board-through-tip122-transistors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Servo motors interfacing with Arduino mega board through TIP122 transistors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation-system-radio-command" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation System : Radio Command
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-the-flysky-fs-i6-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How the Flysky FS-I6 works? 🎮
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-does-the-rover-handle-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does the Rover Handle Turns? 🔄
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Does the Rover Handle Turns? 🔄">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ackermann-steering-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ackermann Steering Geometry ⚙️
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathematical-principle-behind-ackermann-steering-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mathematical principle behind Ackermann steering geometry 📐
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation-system-sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation System : Sensors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-raspberry-pi-with-the-usb-camera" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring the Raspberry Pi with the USB camera
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../it/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    IT
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mechanics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mechanics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#software" class="md-nav__link">
+    <span class="md-ellipsis">
+      Software 💻
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#materials" class="md-nav__link">
+    <span class="md-ellipsis">
+      Materials 🛠️
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#power-management-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Power Management System
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#command-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      Command System
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#servo-motors-interfacing-with-arduino-mega-board-through-tip122-transistors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Servo motors interfacing with Arduino mega board through TIP122 transistors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation-system-radio-command" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation System : Radio Command
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-the-flysky-fs-i6-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How the Flysky FS-I6 works? 🎮
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-does-the-rover-handle-turns" class="md-nav__link">
+    <span class="md-ellipsis">
+      How Does the Rover Handle Turns? 🔄
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How Does the Rover Handle Turns? 🔄">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ackermann-steering-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ackermann Steering Geometry ⚙️
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mathematical-principle-behind-ackermann-steering-geometry" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mathematical principle behind Ackermann steering geometry 📐
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#navigation-system-sensors" class="md-nav__link">
+    <span class="md-ellipsis">
+      Navigation System : Sensors
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuring-the-raspberry-pi-with-the-usb-camera" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuring the Raspberry Pi with the USB camera
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+<h1 id="electronics">Electronics ⚡<a class="headerlink" href="#electronics" title="Permanent link">&para;</a></h1>
+<p>In the electronic parts, we used the following software and components.</p>
+<h2 id="software">Software 💻<a class="headerlink" href="#software" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Designation</th>
+<th>Logos</th>
+<th>Usages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arduino IDE</td>
+<td><img alt="Arduino ide" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/IDE%20arduino.jpeg" /></td>
+<td>Using the Arduino IDE made programming the Arduino Mega easier.</td>
+</tr>
+<tr>
+<td>KiCad</td>
+<td><img alt="KiCad" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/Kicad_logo_new.png" /></td>
+<td>The entry of the electrical diagram and the creation of the printed circuit were carried out on KiCad, which is a suite of free software for drawing electronic diagrams and designing printed circuits, offering a 3D visualization of our PCB and other tools necessary for the design of electronic circuits.</td>
+</tr>
+<tr>
+<td>FlatCAM</td>
+<td><img alt="FlatCAM" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/flatcam.png" /></td>
+<td>Flatcam is a software for generating the CNC jobs  G-codes.</td>
+</tr>
+<tr>
+<td>Candle</td>
+<td><img alt="Candle" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/Candle_cnc.png" /></td>
+<td>Candle is a software for controlling the CNC machine.</td>
+</tr>
+<tr>
+<td>Fritzing</td>
+<td><img alt="Fritzing" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/fritzing.png" /></td>
+<td>Using Fritzing, an electronic circuit design software, allowed us to create an overview of the different connections between the project components.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="materials">Materials 🛠️<a class="headerlink" href="#materials" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Designation</th>
+<th>Number</th>
+<th>Picture</th>
+<th>Links/Price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arduino MEGA</td>
+<td>01</td>
+<td><img alt="arduino mega" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/arduinomega.jpg" /></td>
+<td><a href="https://youpilab.com/components/product/arduino-mega-2560">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Arduino NANO</td>
+<td>01</td>
+<td><img alt="arduino nano" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/arduino_nano.jpg" /></td>
+<td><a href="https://youpilab.com/components/product/arduino-nano-ch340">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Raspberry pi 4 Model B</td>
+<td>02</td>
+<td><img alt="raspberry pi" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/raspberry.jpg" /></td>
+<td><a href="https://youpilab.com/components/product/raspberry-pi4-model-ram-8giga">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Servo-motor REV-41-1097</td>
+<td>05</td>
+<td><img alt="servo-motor" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/rev-41-1097.jpg" /></td>
+<td><a href="https://www.revrobotics.com/rev-41-1097/">REV Robotics</a></td>
+</tr>
+<tr>
+<td>Stepper motor</td>
+<td>01</td>
+<td><img alt="stepper motor" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/Moteur_pas_%C3%A0_pas_Nema_17.png" /></td>
+<td><a href="https://youpilab.com/components/product/moteur-pas-a-pas-nema-17-42hs48">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Continuous Motor (XD37GB-555YSY 50rpm)</td>
+<td>06</td>
+<td><img alt="motor" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/motor.jpg" /></td>
+<td><a href="">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Camera</td>
+<td>01</td>
+<td><img alt="camera" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/camera.jpg" /></td>
+<td><a href="">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Flysky FS-i6 RC</td>
+<td>01</td>
+<td><img alt="Flysky FS-i6 RC" src="https://raw.githubusercontent.com/benrover-24/docs/main/docs/electronics/images/materials/flysky_tx.jpg" /></td>
+<td><a href="">Link</a></td>
+</tr>
+<tr>
+<td>Flysky FS-iA6 (receiver)</td>
+<td>01</td>
+<td><img alt="Flysky FS-iA6 (receiver)" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/receiver_flysky.jpg" /></td>
+<td><a href="">Link</a></td>
+</tr>
+<tr>
+<td>A4988 stepper motor driver</td>
+<td>01</td>
+<td><img alt="A4988" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/A4988_Stepper_Motor_Driver.jpeg" /></td>
+<td><a href="https://youpilab.com/components/product/a4988-stepper-motor-driver">YoupiLab</a></td>
+</tr>
+<tr>
+<td>TIP 122</td>
+<td>06</td>
+<td><img alt="TIP" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/TIP122.jpg" /></td>
+<td><a href="https://youpilab.com/components/product/transistor-darlington-tip122">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Terminal block</td>
+<td>30</td>
+<td><img alt="T-block" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/T-block.jpg" /></td>
+<td><a href="https://youpilab.com/components/product/bornier-2-broches">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Header pin male</td>
+<td>30</td>
+<td><img alt="Header pin male" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/header_pin_mal.jpg" /></td>
+<td><a href="">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Header pin female</td>
+<td>30</td>
+<td><img alt="Header pin male" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/header_pin_femel.jpg" /></td>
+<td><a href="">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Flexible Heat Resistant Electrical Wire</td>
+<td>06</td>
+<td><img alt="Flexible Heat Resistant Electrical Wire" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/Fil_%C3%A9lectrique_r%C3%A9sistant_%C3%A0_la_chaleur.jpg" /></td>
+<td><a href="https://youpilab.com/components/product/fil-electrique-resistant-a-la-chaleur-jaune-metre">YoupiLab</a></td>
+</tr>
+<tr>
+<td>Grove wire (3 and 4 pins) 1 m</td>
+<td>10</td>
+<td><img alt="Grove wire" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/grove_wire.jpg" /></td>
+<td><a href="">ici</a></td>
+</tr>
+<tr>
+<td>Alimentation</td>
+<td>06</td>
+<td><img alt="Alimentation" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/batterie_de_moto.jpg" /></td>
+<td><a href="">Link</a></td>
+</tr>
+<tr>
+<td>LCD screen + i2c module</td>
+<td>02</td>
+<td><img alt="LCD_screen_i2c_module" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/lcd_modul_i2c.png" /></td>
+<td><a href="https://youpilab.com/components/product/ecran-lcd-16x02-avec-iLink2c">YoupiLab</a></td>
+</tr>
+<tr>
+<td>LM35 temperature sensor</td>
+<td>02</td>
+<td><img alt="LM35_temperature_sensor" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/lm35.jpg" /></td>
+<td><a href="https://youpilab.com/components/product/capteur-de-temperature-lm35dz">YoupiLab</a></td>
+</tr>
+<tr>
+<td>MPU6050</td>
+<td>02</td>
+<td><img alt="MPU6050_sensor" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/mpu.png" /></td>
+<td><a href="">ici</a></td>
+</tr>
+<tr>
+<td>Copper plate for pcb</td>
+<td>04</td>
+<td><img alt="copper plate for pcb" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/materials/plaque_cuivree.jpg" /></td>
+<td><a href="">ici</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="power-management-system">Power Management System<a class="headerlink" href="#power-management-system" title="Permanent link">&para;</a></h2>
+<p>For efficient power system management, we have opted for the following configuration:</p>
+<ul>
+<li>The rover's power supply consists of two parallel-connected 12-volt batteries, each rated at 5 Ah.</li>
+<li>An Arduino nano manages this power supply and displays on I2C LCD screen the temperature of the block via an LM35 sensor and the battery charge level using a resistor bridge. </li>
+<li>An emergency stop button is integrated between the power pack batteries and the rest of the system. This button allows you to shut down the entire system if necessary. </li>
+</ul>
+<p>With our current power supply we have a capacity of 10 Ah (Capacity = current * time), offering a maximum autonomy of 5 hours if the system consumption reaches 2A. However, this autonomy can be reduced by various factors, such as variations in component consumption, circuit losses, and temperature fluctuations.</p>
+<p><img alt="battery block" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/ems_block2.jpg" /></p>
+<h2 id="command-system">Command System<a class="headerlink" href="#command-system" title="Permanent link">&para;</a></h2>
+<p>To control the actuators such as the 5 servo motors, the 6 continuous motors, the stepper motors we used an Arduino Mega.</p>
+<p>The servomotors from REV ROBOTICS which we supplied with a voltage of 12V and which require a maximum dropout current of 2A, we used TIP122 transistors to amplify the low current of 20 mA supplied by the Arduino Mega. </p>
+<p>To reduce electrical interference, we have added capacitors which filter the noise produced by the motors which are powered through their drivers by 12V.</p>
+<h2 id="servo-motors-interfacing-with-arduino-mega-board-through-tip122-transistors">Servo motors interfacing with Arduino mega board through TIP122 transistors<a class="headerlink" href="#servo-motors-interfacing-with-arduino-mega-board-through-tip122-transistors" title="Permanent link">&para;</a></h2>
+<p>The wheels at the corners of the Benrover are equiped with four Rev Smart Robotic Servos</p>
+<p><img alt="rev-41-1097" src="https://raw.githubusercontent.com/Mahudjro369/MyBenrover2024/main/docs/electronics/images/materials/rev-41-1097.jpg" /> </p>
+<p>Those servo motors that we are using as specified by the constructor in the electrical specifications's table on the following page <a href="https://docs.revrobotics.com/rev-crossover-products/servo/srs">Smart Robot Servo Specifications</a>, have a stall current of 2 A at 6V. 
+This means that each one can take 2 A current at maximum load from the supply source. They need a PWM pulse range from 500 µs to 2500 µs from a microcontroller to be driven.
+As the Arduino mega board is only able to source 20 mA of current on his pins as notified in the datasheet of the Atmega2560’s screenshot below to produce the PWM signal.This current is enough to drive one servo, but as we are using four of then and due to some electrical constraints of the Atmega2560 itself, we need to amplify it.</p>
+<p><img alt="Datasheet ATmega 2560" src="https://raw.githubusercontent.com/Mahudjro369/MyBenrover2024/main/docs/electronics/images/other/Datasheet%20ATmega%202560%20.jpg" /></p>
+<p>We want to ensure that all the servo-motors work correctly at the same time on the Arduino mega board to make the rover wheels turn into any desired direction.  </p>
+<p>To hit our target we decide to make an interfacing circuit between the signal pin of the servo-motors and the Atmega2560's PWM pins. The circuit we’ve chosen use a TIP122 transistors to amplify the 20 mA current from the Arduino Mega pin.  </p>
+<p>The TIP 122 is a Darlington transistor able to amplify by 1000 the current received at his base with a collector current of 0.5 A at 3 V as mentioned in a table of the datasheet where below. Note that the current limit is of 5 A.</p>
+<p><img alt="Datasheet TIP122" src="https://raw.githubusercontent.com/Mahudjro369/MyBenrover2024/main/docs/electronics/images/other/Datasheet%20TIP122.jpg" /></p>
+<p>Additionally, the TIP122 can switch signal at a maximum frequency of 1 MHz. This is enough to transmit while amplifying the PWM pulses from the Arduino Mega board to the servo-motors. Where is the schematic realized on each signal pin.</p>
+<p><img alt="Servo motor interfacing schematic" src="https://raw.githubusercontent.com/Mahudjro369/MyBenrover2024/main/docs/electronics/images/other/Servo%20motor%20interfacing%20schematic.jpg" /></p>
+<h2 id="navigation-system-radio-command">Navigation System : Radio Command<a class="headerlink" href="#navigation-system-radio-command" title="Permanent link">&para;</a></h2>
+<p>Waiting for the integration of ROS (Robot Operating System) and the implementation of the Rover management software, which will be installed on the Rover control station server, we used the Flysky FS-i6 remote control and its Flysky FS receiver -iA6 to set up the code logic and carry out the various tests (motor tests, servo-motor tests, etc.). Later, after the integration of ROS, the Flysky FS-i6 remote control and its Flysky FS-iA6 receiver will be replaced by the Xbox controller, which will be connected to the management software to allow remote control of the Rover via WI-FI.</p>
+<p><img alt="flysky joystick" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/fs-i6.gif" /></p>
+<h2 id="how-the-flysky-fs-i6-works">How the Flysky FS-I6 works? 🎮<a class="headerlink" href="#how-the-flysky-fs-i6-works" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Channel</th>
+<th>Usages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Channel 1 – Right Joystick, Left/Right</td>
+<td>Controls four (04) servo motors, each connected to the Rover's front and rear wheels to enable turning movements</td>
+</tr>
+<tr>
+<td>Channel 2 – Right Joystick, Up/Down</td>
+<td>Controls six (06) motors, each connected to the Rover's wheels to allow the rover to move forward and backward</td>
+</tr>
+<tr>
+<td>Channel 3 – Left Joystick, Up/Down</td>
+<td>Controls the rotation (in two directions: clockwise and counterclockwise) of the stepper motor connected to the Rover's neck for a 360° rotation of the camera</td>
+</tr>
+<tr>
+<td>Channel 4 – Left Joystick, Left/Right</td>
+<td>Controls one (01) servo motor connected to the Rover camera block to allow tilt movements (up-down)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="how-does-the-rover-handle-turns">How Does the Rover Handle Turns? 🔄<a class="headerlink" href="#how-does-the-rover-handle-turns" title="Permanent link">&para;</a></h2>
+<h3 id="ackermann-steering-geometry">Ackermann Steering Geometry ⚙️<a class="headerlink" href="#ackermann-steering-geometry" title="Permanent link">&para;</a></h3>
+<p>The four steerable wheels (the two front and rear wheels) have individual steering mechanisms equipped with REV-41-1097 servo motors from REV ROBOTICS. To enhance the rover's maneuverability during turns, we applied Ackermann steering geometry to the steerable wheels. Ackermann steering geometry, widely used in the steering principles of many cars, allows the wheels to turn at different angles, optimizing turning performance and reducing tire wear.</p>
+<p>Ackermann steering geometry suggests that during a turn, the inner wheels have a larger steering angle than the outer wheels. Thus, the outer wheels describe a larger arc than the inner wheels.</p>
+<p><img alt="Ackermann geometry" src="https://raw.githubusercontent.com/BenRover-24/docs/refs/heads/main/docs/electronics/images/Ackermann-Steering-Geometry-for-Mars-Rover-with-rocker-bogie-suspension.png" /></p>
+<h3 id="mathematical-principle-behind-ackermann-steering-geometry">Mathematical principle behind Ackermann steering geometry 📐<a class="headerlink" href="#mathematical-principle-behind-ackermann-steering-geometry" title="Permanent link">&para;</a></h3>
+<p><img alt="Ackermann geometry" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/formule_ackermann.png" /></p>
+<ul>
+<li>L: wheelbase;</li>
+<li>R: turning radius;</li>
+<li>W: track width;</li>
+</ul>
+<h2 id="navigation-system-sensors">Navigation System : Sensors<a class="headerlink" href="#navigation-system-sensors" title="Permanent link">&para;</a></h2>
+<p>A Raspberry Pi 4 model B controls the sensors (MPU6050, USB Camera )
+The MPU6050 is connected via I2C and sends temperature, gyroscope and accelerometer data. This data, plus data from the power supply received via i2c (temperature, battery level), is sent to an online database.</p>
+<p>The vision will be assured by a USB camera connected to the Raspberry Pi. The package ‘motion’ installed on the Raspberry Pi will then be used to stream video via Wi-Fi. </p>
+<p>The control station will be connected on the same network as the Raspberry Pi which gives us access to the continu video feed through a web browser at the Raspberry Pi Ip address with the port onto which the video feed is playing. (example : 10.10.10.5:9000). After some tests, we got images with an appropriate resolution.</p>
+<h2 id="configuring-the-raspberry-pi-with-the-usb-camera">Configuring the Raspberry Pi with the USB camera<a class="headerlink" href="#configuring-the-raspberry-pi-with-the-usb-camera" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Install the motion package with the command : sudo apt-get install motion</li>
+<li>Execute the command:  sudo service motion status</li>
+<li>In the event of an error saying that the Motion folders located at /var/lib/ and /var/log/motion are not found, you must create the folders with the commands sudo mkdir /var/log/motion and sudo mkdir /var/lib/motion</li>
+<li>Check if folders have been created by moving to their location or typing : ls -ld /var/log/motion and ls -ld /var/lib/motion</li>
+<li>Then give permissions : sudo chmod -R 777 /var/log/motion and sudo chmod -R 777 /var/lib/motion</li>
+<li>Execute command :  sudo service motion status</li>
+<li>If we have an access denied error, we rerun : sudo chmod -R 777 /var/log/motion and sudo chmod -R 777 /var/lib/motion</li>
+<li>Run the command again : sudo service motion status</li>
+<li>this time we are supposed to have no more errors</li>
+<li>Run the command : sudo cp /etc/motion/motion.conf /etc/motion/motion.conf.bckp sudo nano /etc/motion/motion.conf to make a copy of the motion package configuration file</li>
+<li>Run sudo service motion start then sudo service motion status to check if the motion service is activated</li>
+<li>If enabled, run the command sudo nano ~/.motion/motion.log and modify the following parameters:</li>
+<li>webcontrol_port : 8080</li>
+<li>webcontrol_localhost: on</li>
+<li>stream_port : 8081</li>
+<li>stream_localhost : off</li>
+<li>output_movie :on</li>
+<li>stream_quality : 100</li>
+<li>Width : 1280</li>
+<li>Height : 720</li>
+</ul>
+<p><img alt="Live feed from camera" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/cam.png" /></p>
+<p><img alt="Live feed from camera" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/live1.png" /></p>
+<p><img alt="Live feed from camera" src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/live2.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2024 Tekbot Robotics
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/BenRover-24" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8M97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://www.linkedin.com/company/tekbot-robotics" target="_blank" rel="noopener" title="www.linkedin.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3M135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5m282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d6f25eb3.min.js"></script>
+      
+    
+  </body>
+</html>
