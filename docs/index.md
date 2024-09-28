@@ -11,7 +11,7 @@ Bienvenue chez BenRover - une équipe d'ingénieurs et d'étudiants passionnés 
 
 
 ## Comprehensive Overview of the Rover architecture
-![Comprehensive Overview of the Rover architecture](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/rover_architecture.jpg)
+![Comprehensive Overview of the Rover architecture img](https://github.com/BenRover-24/docs/blob/main/docs/electronics/images/rover_architecture.jpg)
 
 The Rover Architecture depicted in the image below is a diagram of how the different components of our Rover will interact together. We have 5 main types of components in our system. Here’s an explanation of each component and their interactions:
 
