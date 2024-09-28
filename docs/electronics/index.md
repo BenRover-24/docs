@@ -6,6 +6,7 @@ In the electronic parts, we used the following software and components.
 | ------ | ------ | ------ |
 | Arduino IDE | ![Arduino ide](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/IDE%20arduino.jpeg) | Using the Arduino IDE made programming the Arduino Mega easier. |
 | KiCad | ![KiCad](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/Kicad_logo_new.png) | The entry of the electrical diagram and the creation of the printed circuit were carried out on KiCad, which is a suite of free software for drawing electronic diagrams and designing printed circuits, offering a 3D visualization of our PCB and other tools necessary for the design of electronic circuits. |
+| FlatCAM | ![FlatCAM](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/flatcam.png) | Flatcam is a software for generating the CNC jobs  G-codes. |
 | Candle | ![Candle](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/Candle_cnc.png) |Candle is a software for controlling the CNC machine.|
 | Fritzing | ![Fritzing](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/software/fritzing.png) | Using Fritzing, an electronic circuit design software, allowed us to create an overview of the different connections between the project components. |
 
@@ -36,7 +37,7 @@ In the electronic parts, we used the following software and components.
 
 
 
-# Power Management System
+## Power Management System
 For efficient power system management, we have opted for the following configuration:
 
 *  The rover's power supply consists of two parallel-connected 12-volt batteries, each rated at 5 Ah.
@@ -48,7 +49,7 @@ With our current power supply we have a capacity of 10 Ah (Capacity = current * 
 ![battery block](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/ems_block2.jpg)
 
 
-# Command System
+## Command System
 To control the actuators such as the 5 servo motors, the 6 continuous motors, the stepper motors we used an Arduino Mega.
 
 The servomotors from REV ROBOTICS which we supplied with a voltage of 12V and which require a maximum dropout current of 2A, we used TIP122 transistors to amplify the low current of 20 mA supplied by the Arduino Mega. 
@@ -82,7 +83,7 @@ Additionally, the TIP122 can switch signal at a maximum frequency of 1 MHz. This
 
 
 
-# Navigation System : Radio Command
+## Navigation System : Radio Command
 
 
 Waiting for the integration of ROS (Robot Operating System) and the implementation of the Rover management software, which will be installed on the Rover control station server, we used the Flysky FS-i6 remote control and its Flysky FS receiver -iA6 to set up the code logic and carry out the various tests (motor tests, servo-motor tests, etc.). Later, after the integration of ROS, the Flysky FS-i6 remote control and its Flysky FS-iA6 receiver will be replaced by the Xbox controller, which will be connected to the management software to allow remote control of the Rover via WI-FI.
@@ -115,7 +116,7 @@ Ackermann steering geometry suggests that during a turn, the inner wheels have a
 * R: turning radius;
 * W: track width;
 
-# Navigation System : Sensors
+## Navigation System : Sensors
 
 A Raspberry Pi 4 model B controls the sensors (MPU6050, USB Camera )
 The MPU6050 is connected via I2C and sends temperature, gyroscope and accelerometer data. This data, plus data from the power supply received via i2c (temperature, battery level), is sent to an online database.
