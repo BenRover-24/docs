@@ -1,0 +1,77 @@
+---
+title: Power and Command System
+description: 'Overview of the power and command system of the rover'
+---
+
+<img
+  className="block dark:hidden"
+  src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/ems_block2.jpg"
+  alt="battery block"
+/>
+<img
+  className="hidden dark:block"
+  src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/ems_block2.jpg"
+  alt="battery block"
+/>
+
+## Power Management System
+
+For efficient power system management, we have opted for the following configuration:
+
+<CardGroup cols={2}>
+  <Card
+    title="Battery Configuration"
+    icon="battery-full"
+    href="#"
+  >
+    The rover's power supply consists of two parallel-connected 12-volt batteries, each rated at 5 Ah.
+  </Card>
+  <Card
+    title="Power Monitoring"
+    icon="microchip"
+    href="#"
+  >
+    An Arduino Nano manages the power supply, displaying the temperature via an LM35 sensor and battery charge level on an I2C LCD screen.
+  </Card>
+</CardGroup>
+
+<CardGroup cols={2}>
+  <Card
+    title="Emergency Stop"
+    icon="power-off"
+    href="#"
+  >
+    An emergency stop button is integrated to shut down the entire system if necessary.
+  </Card>
+  <Card
+    title="Autonomy"
+    icon="clock"
+    href="#"
+  >
+    With the current power supply, we have a capacity of 10 Ah, offering a maximum autonomy of 5 hours at a consumption of 2A.
+  </Card>
+</CardGroup>
+
+### Additional Factors:
+The autonomy may be reduced by factors such as variations in component consumption, circuit losses, and temperature fluctuations.
+
+## Command System
+
+To control the actuators such as the 5 servo motors, 6 continuous motors, and stepper motors, we used an Arduino Mega.
+
+<CardGroup cols={2}>
+  <Card
+    title="Servo Motors"
+    icon="gears"
+    href="#"
+  >
+    The servomotors from REV ROBOTICS are supplied with 12V and require a maximum dropout current of 2A. TIP122 transistors amplify the 20 mA supplied by the Arduino Mega.
+  </Card>
+  <Card
+    title="Noise Reduction"
+    icon="wave"
+    href="#"
+  >
+    Capacitors are added to filter the noise produced by motors powered through their drivers by 12V.
+  </Card>
+</CardGroup>

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "BenRover - Documentation",
+  "logo": {
+    "dark": "/images/BenRover-long_blanc.svg",
+    "light": "/images/BenRover-long_blanc.svg"
+  },
+  "favicon": "/images/Fav_icon_fond_blanc_Benrover_proposition.png",
+  "colors": {
+    "primary": "#c94838",
+    "light": "#fff",
+    "dark": "#fff",
+    "anchors": {
+      "from": "#c94838",
+      "to": "#c94838"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Contact",
+      "url": "mailto:contact@tekbot.io"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Website",
+    "url": "https://benrover.tekbot.io"
+  },
+  "anchors": [
+    {
+      "name": "Project Webiste",
+      "icon": "book-open-cover",
+      "url": "https://benrover.tekbot.io"
+    },
+    {
+      "name": "Github",
+      "icon": "github",
+      "url": "https://github.com/benrover-24"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "introduction",
+        "methodologies"
+      ]
+    },
+    {
+      "group": "Electronics",
+      "pages": [
+        "electronics/software-materials",
+        "electronics/power-command",
+        "electronics/servo-motors",
+        "electronics/navigation",
+        "electronics/camera-feed"
+      ]
+    },
+    {
+      "group": "Software Engineering",
+      "pages": [
+        "it/benrover-dashboard",
+        "it/benrover-website",
+        "it/ros"
+      ]
+    },
+    {
+      "group": "Mechanical Engineering",
+      "pages": [
+        "mechanics/3d-model"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "github": "https://github.com/benrover-24",
+    "linkedin": "https://www.linkedin.com/company/tekbot-robotics"
+  }
+}

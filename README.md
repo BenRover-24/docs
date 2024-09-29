@@ -1,32 +1,32 @@
-# BenRover24 Version 1.0 
+# Mintlify Starter Kit
 
-## Project Summary Technical and methodological Documentation 
+Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
 
-## 1. Overview
-BenRover-24 is an educational rover designed to imitate the most stucture and functions of a martian exploration rover, which is robot design to explore the martian  planet.
+- Guide pages
+- Navigation
+- Customizations
+- API Reference pages
+- Use of popular components
 
-This repository contains all the technical and methodological ressources used to design and build the rover.  
+### Development
 
-## 2. Project Methodologies
+Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
 
+```
+npm i -g mintlify
+```
 
-## 3. Assembly
+Run the following command at the root of your documentation (where mint.json is)
 
-## 4. Mechanics
+```
+mintlify dev
+```
 
-## 5. Electrical
+### Publishing Changes
 
-## 6. Electronics
+Install our Github App to auto propagate changes from your repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
 
-## 7. IT
+#### Troubleshooting
 
-## 8. Space Science
-
-
-## 9. Copyright
-**Copyright © 2024 BenRover-24 - Tekbot Robotics.** 
-
-The intellectual property of this project belongs the BenRover-24 team on the behalf of Tekbot Robotics. All rights reserved.
-
-## 10. Maintenance
-For any technical issues, please the team at .
+- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
+- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
