@@ -2,14 +2,18 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "BenRover - Documentation",
   "logo": {
-    "dark": "/images/BenRover-long_blanc.svg",
-    "light": "/images/BenRover-long_blanc.svg"
+    "dark": "/images/BENROVER_MARRON_LONG.svg",
+    "light": "/images/BENROVER_MARRON_LONG.svg"
   },
   "favicon": "/images/Fav_icon_fond_blanc_Benrover_proposition.png",
   "colors": {
     "primary": "#c94838",
     "light": "#fff",
-    "dark": "#fff",
+    "dark": "#c94838",
+    "background": {
+      "light": "#fff",
+      "dark": "#102039"
+    },
     "anchors": {
       "from": "#c94838",
       "to": "#c94838"
@@ -61,12 +65,6 @@
         "it/benrover-dashboard",
         "it/benrover-website",
         "it/ros"
-      ]
-    },
-    {
-      "group": "Mechanical Engineering",
-      "pages": [
-        "mechanics/3d-model"
       ]
     }
   ],

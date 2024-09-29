@@ -1,32 +1,134 @@
 ---
-title: Live Feed from Camera
-description: 'Step-by-step guide to configuring a Raspberry Pi with a USB camera using the motion package'
+title: 'Configuring the Raspberry Pi with USB Camera'
+description: 'A step-by-step guide to set up a USB camera on Raspberry Pi using the motion package'
 ---
 
 ## Configuring the Raspberry Pi with the USB camera
-* Install the motion package with the command : sudo apt-get install motion
-* Execute the command:  sudo service motion status
-* In the event of an error saying that the Motion folders located at /var/lib/ and /var/log/motion are not found, you must create the folders with the commands sudo mkdir /var/log/motion and sudo mkdir /var/lib/motion
-* Check if folders have been created by moving to their location or typing : ls -ld /var/log/motion and ls -ld /var/lib/motion
-* Then give permissions : sudo chmod -R 777 /var/log/motion and sudo chmod -R 777 /var/lib/motion
-* Execute command :  sudo service motion status
-* If we have an access denied error, we rerun : sudo chmod -R 777 /var/log/motion and sudo chmod -R 777 /var/lib/motion
-* Run the command again : sudo service motion status
-* this time we are supposed to have no more errors
-* Run the command : sudo cp /etc/motion/motion.conf /etc/motion/motion.conf.bckp sudo nano /etc/motion/motion.conf to make a copy of the motion package configuration file
-* Run sudo service motion start then sudo service motion status to check if the motion service is activated
-* If enabled, run the command sudo nano ~/.motion/motion.log and modify the following parameters:
-  *  webcontrol_port : 8080
-  *  webcontrol_localhost: on
-  *  stream_port : 8081
-  *  stream_localhost : off
-  *  output_movie :on
-  *  stream_quality : 100
-  *  Width : 1280
-  *  Height : 720
 
-![Live feed from camera](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/cam.png)
+<Steps>
+  <Step title="Install motion package">
+    Run the following command:
+    ```bash
+    sudo apt-get install motion
+    ```
+  </Step>
 
-![Live feed from camera](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/live1.png)
+  <Step title="Check motion service status">
+    Execute the command:
+    ```bash
+    sudo service motion status
+    ```
+  </Step>
 
-![Live feed from camera](https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/live2.png)
+  <Step title="Create required directories">
+    If you encounter an error about missing Motion folders, create them:
+    ```bash
+    sudo mkdir /var/log/motion
+    sudo mkdir /var/lib/motion
+    ```
+    Verify the folders were created:
+    ```bash
+    ls -ld /var/log/motion
+    ls -ld /var/lib/motion
+    ```
+  </Step>
+
+  <Step title="Set permissions">
+    Grant necessary permissions:
+    ```bash
+    sudo chmod -R 777 /var/log/motion
+    sudo chmod -R 777 /var/lib/motion
+    ```
+  </Step>
+
+  <Step title="Recheck motion service status">
+    Run the command again:
+    ```bash
+    sudo service motion status
+    ```
+    If you still encounter an "access denied" error, repeat the chmod commands from Step 4.
+  </Step>
+
+  <Step title="Backup and edit motion configuration">
+    Make a backup of the configuration file:
+    ```bash
+    sudo cp /etc/motion/motion.conf /etc/motion/motion.conf.bckp
+    ```
+    Edit the configuration file:
+    ```bash
+    sudo nano /etc/motion/motion.conf
+    ```
+  </Step>
+
+  <Step title="Start motion service">
+    Start the service and check its status:
+    ```bash
+    sudo service motion start
+    sudo service motion status
+    ```
+  </Step>
+
+  <Step title="Edit motion log (if enabled)">
+    If enabled, edit the motion log:
+    ```bash
+    sudo nano ~/.motion/motion.log
+    ```
+    Modify the following parameters:
+    <Table>
+      <TableHead>
+        <TableRow>
+          <TableHeaderCell>Parameter</TableHeaderCell>
+          <TableHeaderCell>Value</TableHeaderCell>
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        <TableRow>
+          <TableCell>webcontrol_port</TableCell>
+          <TableCell>8080</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell>webcontrol_localhost</TableCell>
+          <TableCell>on</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell>stream_port</TableCell>
+          <TableCell>8081</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell>stream_localhost</TableCell>
+          <TableCell>off</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell>output_movie</TableCell>
+          <TableCell>on</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell>stream_quality</TableCell>
+          <TableCell>100</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell>Width</TableCell>
+          <TableCell>1280</TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell>Height</TableCell>
+          <TableCell>720</TableCell>
+        </TableRow>
+      </TableBody>
+    </Table>
+  </Step>
+</Steps>
+
+## Camera Feed Examples
+
+<CardGroup cols={3}>
+  <Card title="Camera Setup">
+    <img src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/cam.png" alt="Live feed from camera" />
+  </Card>
+  <Card title="Live Feed 1">
+    <img src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/live1.png" alt="Live feed from camera" />
+  </Card>
+  <Card title="Live Feed 2">
+    <img src="https://raw.githubusercontent.com/BenRover-24/docs/main/docs/electronics/images/live2.png" alt="Live feed from camera" />
+  </Card>
+</CardGroup>
