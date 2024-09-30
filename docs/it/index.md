@@ -59,6 +59,7 @@ Here's a quick demonstration of the BenRover Dashboard interface:
 4. Set up Firebase:
    - Create a Firebase project and obtain the `credentials.json` file.
    - Place the `credentials.json` file in the project root directory.
+   - Copy the database url from firebase and paste it at the `databaseURL` value of the initialization
 
 ## 🚀 Usage
 
