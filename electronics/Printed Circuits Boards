@@ -1,1 +1,23 @@
+# PCB Manufacturing
+We designed three (03) distinct PCBs, each tailored to specific functionalities of the rover. 
+The design process considered key factors such as size constraints, durability, and signal. 
+The PCBs were designed using KiCad, focusing on optimizing the layout for power distribution and signal integrity.
+
+## Computer-Aided Design (CAD) with KiCad
+[KiCad](https://www.kicad.org) is a free software suite for electronic projects designing, created in 1992 by Jean-Pierre Charras.
+It allows its users to create every kind of electronic circuit; from the simplest to the most complex ones.
+KiCad is composed of many useful tools such as the schematic editor, the PCB editor, the Gerber viewer, the footprint editor, the symbol editor and others.
+The   previous ones have those that we have been using the most.  
+
+To design a printed Circuit Board, one have to follow three main steps : 
+*	the schematic edition 
+*	the PCB drawing 
+*	the PCB visualization
+  
+	**The schematic edition** is the first step of every electronic project under KiCad. During the schematic edition, we take care to choose the electrical symbol of all the necessary components for each circuit.
+KiCad includes a wide variety of symbols of components into his schematic library. However, in some cases one doesn't find the symbol of a desired component.
+In those cases, we can search the symbol of the component on [Snap EDA] (https://www.snapeda.com). This website offers a high number of component’s libraries compatible with many computer aided design tools and in our case compatibles with KiCad.
+We have used it to download the libraries of some components such as the Arduino Mega board, the Raspberry Pi 4, the terminal blocks and many others. Let’s remember that those libraries contain the symbols, the footprint and 3D model of each component. 
+After selecting our components, the next step is to draw the connection between them to obtain the electronic circuit that we have previously realized on our breadboards.
+To ensure the clarity of the schematic, the **label editing tool** can be useful to connect many pins together without drawing a line between them. Another great tool of KiCad is the **surbrillance net tool** which allow to verify if the pins are correctly connected. 
 
