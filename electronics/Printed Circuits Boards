@@ -1,0 +1,91 @@
+# PCB Manufacturing
+We designed three (03) distinct PCBs, each tailored to specific functionalities of the rover. 
+The design process considered key factors such as size constraints, durability, and signal. 
+The PCBs were designed using KiCad, focusing on optimizing the layout for power distribution and signal integrity.
+
+## Computer-Aided Design (CAD) with KiCad
+[KiCad](https://www.kicad.org) is a free software suite for electronic projects designing, created in 1992 by Jean-Pierre Charras.
+It allows its users to create every kind of electronic circuit; from the simplest to the most complex ones.
+KiCad is composed of many useful tools such as the schematic editor, the PCB editor, the Gerber viewer, the footprint editor, the symbol editor and others.
+The   previous ones have those that we have been using the most.  
+
+To design a printed Circuit Board, one have to follow three main steps : 
+*	the schematic edition 
+*	the PCB drawing 
+*	the PCB visualization
+  
+	**The schematic edition** is the first step of every electronic project under KiCad. During the schematic edition, we take care to choose the electrical symbol of all the necessary components for each circuit.
+KiCad includes a wide variety of symbols of components into his schematic library. However, in some cases one doesn't find the symbol of a desired component.
+In those cases, we can search the symbol of the component on [Snap EDA] (https://www.snapeda.com). This website offers a high number of component’s libraries compatible with many computer aided design tools and in our case compatibles with KiCad.
+We have used it to download the libraries of some components such as the Arduino Mega board, the Raspberry Pi 4, the terminal blocks and many others. Let’s remember that those libraries contain the symbols, the footprint and 3D model of each component. 
+After selecting our components, the next step is to draw the connection between them to obtain the electronic circuit that we have previously realized on our breadboards.
+To ensure the clarity of the schematic, the **label editing tool** can be useful to connect many pins together without drawing a line between them. Another great tool of KiCad is the **surbrillance net tool** which allow to verify if the pins are correctly connected. 
+
+![Schematic edition screen](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Schematic%20edition.png)
+
+**The PCB drawing** is the final step of the Computer Aided Design in KiCad.
+At this step, the designer has to essentially dispose of each component on the board and draw the circuit itself.
+The disposition of the components must be as simple as possible to ease the drawing of the conductive traces of the PCB. As the electronic symbols represent the components while editing the schematic, here the components are represented by their footprints.
+The footprints show directly how the component will look from the point of view of the electrical connection. For example, a resistor’s footprint will be a rectangular shape with one circular pad at each side and a line connecting the pads to the rectangle. 
+After disposing of all the components, we have to draw the connection between the components being helped by the circuit we have designed before in the schematic editor. The diameters of the traces must respect the constraints of the voltage and the current. 
+The higher the voltage and current, the higher the diameter must be ortherwise the the lines burn because of overheating. 
+Here also, KiCad gave us some great tools such as the footprint editor where we can modify the shape of the component’s footprint.
+The traces making tools are useful when drawing the connection on the PCB. We also have some geometric figures making tools that help to make the border shape of the board. 
+The 3D viewer also is accessible through the pcb drawing screen and is essential to see how the board will be in real life, and this tool is very realistic. 
+
+![PCB drawing screen](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/PCB%20editon.png)
+
+**The PCB 3D visualization** is the final step of our design work. Where we can contemplate the result of our work with the 3D viewer. 
+This step allows us to confirm that the board is suitable to an esthetic point of view. Here below is the 3D view of the PCB above. After checking the PCB, we have to generate its Gerber files that we will use for the next steps.
+The Gerber files contain the description of the different layers of the PCB. 
+
+![3D view of the PCB of the Input block board](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/INPUT%20block%20PCB%20%20.jpg)
+
+### Energy Management PCB
+Designed for monitoring and distributing electrical power to all subsystems.
+The board combines an Arduino Nano Board which uses a voltage divider resistor bridge and a LM35 temperature sensor to analyze and show the voltage level and the temperature of the circuit on an LCD screen. 
+The board is also equipped with a terminal block connector to ease the power connection to all the rover’s components.
+
+![Energy Management Board Schematic](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Energy%20management%20schema.png)
+![Energy Management Board PCB](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Energy%20Management%20Board%20PCB.png)
+
+### Output Components Control PCB
+Designed to handle the high current required for driving the rover's motors.
+This board includes motor drivers and protection circuits, with built-in feedback from encoders to allow precise speed and position control.
+The board is also equipped with TIP122 transistors circuits for driving servo motors, power connectors and a reset button.
+
+![Output Board Schematic](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Output%20Block%20Schema.png)
+![Output Board PCB](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/OutputBlock%20PCB.png)
+
+### Sensor Input PCB
+The circuit below is an exploitation circuit for the Raspberry Pi4. We have equipped it with a MPU6050 sensor for gating axial position and acceleration data of the rover.
+Via the I2C circuit on the board, the Raspberry is able to gate and send data to all the orders boards. Let’s remember that the Raspberry is equipped with a high definition camera.
+
+![Input Board Schematic](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Input%20Board%20Schema%20.png)
+![Input Board PCB](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/INPUT%20block%20PCB%20%20.jpg)
+
+##  Computer-Aided Manufacturing (CAM) : 
+### Layers Design
+The PCBs were fabricated using a CNC milling machine, ensuring precise trace routing and accurate drilling for through-holes and surface-mount components. 
+But between the PCB design and its fabrication with the CNC machine, there is an important step. This step consists of creating the CNC Jobs Gcode files with the software FLATCAM.
+The picture here below shows the process while we were creating the files for the Output Board.
+The principle of this step is to indicate the size of the different drilling bits we are using on our CNC machine and other important configurations such as the speed of the bits and the depth for drilling.
+
+![Flatcam configuration processing](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Flatcam%20configurations%20processing.png)
+
+### CNC Milling and Drilling
+The PCBs were fabricated using the Fox Alien 4040-XE shown in the picture right below. By using appropriated milling bites, we have been able to make our Printed Circuits Boards with a really high finesse of quality. 
+
+![Pictures of the CNC machine](https://github.com/Mahudjro369/MyBenRover/blob/mintlify/images/CNC%20FoxAlien%204040-XE.jpg)
+
+### Soldering and Testing
+After fabrication, components were mounted on the PCBs and soldered manually. 
+Despite the high density of the pins on the boards, our electronic team members have been able to solder them without any short circuit and have adjusted the circuit as needed in function of the inconvenience that occurred.  
+Here are the pictures of the different PCBs we have made.
+
+![Input Board PCB](https://github.com/Mahudjro369/MyBenRover/blob/mintlify/images/PCB%20reel%20Input%20Board.jpg)
+
+![Output Board PCB](https://github.com/Mahudjro369/MyBenRover/blob/mintlify/images/PCB%20reel%20Output%20board.jpg)
+
+![Energy management Board PCB](https://github.com/Mahudjro369/MyBenRover/blob/mintlify/images/PCB%20reel%20Energy%20Management%20Board.jpg)
+
