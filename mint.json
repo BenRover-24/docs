@@ -5,7 +5,7 @@
     "dark": "/images/BENROVER_MARRON_LONG.svg",
     "light": "/images/BENROVER_MARRON_LONG.svg"
   },
-  "favicon": "/images/Fav_icon_fond_blanc_Benrover_proposition.png",
+  "favicon": "/images/Fav_icon_sans-fond_Benrover_proposition.png",
   "colors": {
     "primary": "#c94838",
     "light": "#fff",
@@ -57,6 +57,13 @@
         "electronics/servo-motors",
         "electronics/navigation",
         "electronics/camera-feed"
+      ]
+    },
+    {
+      "group": "Mechanics",
+      "pages": [
+        "mechanics/intro",
+        "mechanics/design-specs"
       ]
     },
     {

@@ -1,0 +1,63 @@
+---
+title: 'Design Specifications'
+description: 'Detailed design specifications and constraints for the BenRover project'
+---
+
+## Technical Requirements
+Several constraints were imposed on us during the design of the rover.
+
+### Size and Weight Limitations
+
+| Specification | Value |
+|:---------------:|:-------:|
+| Maximum width | 80 cm |
+| Maximum height (without antenna) | 80 cm |
+| Maximum height (including antenna) | 250 cm |
+| Maximum weight | 40 kg (excluding equipment in the remote control cabin) |
+
+
+### Rover Specifications
+
+- The rover must be remotely controlled by one or more human operators from the team.
+- The rover must be equipped with onboard cameras to transmit live video to the control station.
+- Energy autonomy is imperative; the rover must not be connected to a power cable, and the use of a combustion engine is prohibited.
+- The rover must be able to cover a distance of up to 100 m from the control station.
+
+## Materials
+
+<CardGroup cols={1}>
+  <Card title="Chassis">
+    Made from 20x20mm square aluminum bars. Joints made of PolyLactic Acid (PLA), a biodegradable plastic material used in 3D printing, form the vertices of a rectangular parallelepiped to join the aluminum bars.
+  </Card>
+  <Card title="Suspension">
+    Designed using 20mm diameter aluminum tubes and PLA parts to join the tubes into functional groups.
+  </Card>
+  <Card title="Wheels">
+    Made in two parts. The part in contact with the ground is made of ThermoPlastic Urethane (TPU), a flexible plastic material that allows the wheel to deform when in contact with obstacles like stones to minimize shock effects.
+  </Card>
+</CardGroup>
+
+## Tools
+
+Our mechanical team used several tools to design our rover:
+
+<CardGroup cols={2}>
+  <Card title="SolidWorks" icon="desktop">
+    A Computer-Aided Design (CAD) software widely used in the mechanical engineering community due to its simple interface and range of tools from part design and assembly to simulation.
+  </Card>
+  <Card title="3D Printer" icon="print">
+    We use Creality Ender 3 Pro printers that use the Fused Deposition Modeling (FDM) process. The filaments used are either PLA+ or TPU.
+  </Card>
+  <Card title="Column Drill" icon="drill">
+    Used for precise drilling operations.
+  </Card>
+  <Card title="Hand Drill" icon="screwdriver-wrench">
+    For more flexible drilling needs.
+  </Card>
+  <Card title="Hand Saw" icon="saw">
+    Needed to cut steel bolts and aluminum tubes.
+  </Card>
+  <Card title="Standard Parts" icon="puzzle-piece">
+    Screws, bolts, nuts, bearings, etc.
+  </Card>
+</CardGroup>
