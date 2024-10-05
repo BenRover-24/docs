@@ -46,8 +46,8 @@ Designed for monitoring and distributing electrical power to all subsystems.
 The board combines an Arduino Nano Board which uses a voltage divider resistor bridge and a LM35 temperature sensor to analyze and show the voltage level and the temperature of the circuit on an LCD screen. 
 The board is also equipped with a terminal block connector to ease the power connection to all the rover’s components.
 
-![Energy Management Board Schematic]()
-![Energy Management Board PCB]()
+![Energy Management Board Schematic](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Energy%20management%20schema.png)
+![Energy Management Board PCB](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Energy%20Management%20Board%20PCB.png)
 
 ### Output Components Control PCB
 Designed to handle the high current required for driving the rover's motors.
