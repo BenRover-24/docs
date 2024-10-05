@@ -76,16 +76,16 @@ The principle of this step is to indicate the size of the different drilling bit
 ### CNC Milling and Drilling
 The PCBs were fabricated using the Fox Alien 4040-XE shown in the picture right below. By using appropriated milling bites, we have been able to make our Printed Circuits Boards with a really high finesse of quality. 
 
-![Pictures of the CNC machine]
+![Pictures of the CNC machine](https://github.com/Mahudjro369/MyBenRover/blob/mintlify/images/CNC%20FoxAlien%204040-XE.jpg)
 
 ### Soldering and Testing
 After fabrication, components were mounted on the PCBs and soldered manually. 
 Despite the high density of the pins on the boards, our electronic team members have been able to solder them without any short circuit and have adjusted the circuit as needed in function of the inconvenience that occurred.  
 Here are the pictures of the different PCBs we have made.
 
-![Input Board PCB]()
+![Input Board PCB](https://github.com/Mahudjro369/MyBenRover/blob/mintlify/images/PCB%20reel%20Input%20Board.jpg)
 
-![Output Board PCB]()
+![Output Board PCB](https://github.com/Mahudjro369/MyBenRover/blob/mintlify/images/PCB%20reel%20Output%20board.jpg)
 
-![Energy management Board PCB]()
+![Energy management Board PCB](https://github.com/Mahudjro369/MyBenRover/blob/mintlify/images/PCB%20reel%20Energy%20Management%20Board.jpg)
 
