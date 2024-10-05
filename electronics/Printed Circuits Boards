@@ -21,3 +21,4 @@ We have used it to download the libraries of some components such as the Arduino
 After selecting our components, the next step is to draw the connection between them to obtain the electronic circuit that we have previously realized on our breadboards.
 To ensure the clarity of the schematic, the **label editing tool** can be useful to connect many pins together without drawing a line between them. Another great tool of KiCad is the **surbrillance net tool** which allow to verify if the pins are correctly connected. 
 
+![Schematic edition screen]()
