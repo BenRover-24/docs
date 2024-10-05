@@ -47,14 +47,45 @@ The board combines an Arduino Nano Board which uses a voltage divider resistor b
 The board is also equipped with a terminal block connector to ease the power connection to all the rover’s components.
 
 ![Energy Management Board Schematic]()
+![Energy Management Board PCB]()
 
 ### Output Components Control PCB
 Designed to handle the high current required for driving the rover's motors.
 This board includes motor drivers and protection circuits, with built-in feedback from encoders to allow precise speed and position control.
 The board is also equipped with TIP122 transistors circuits for driving servo motors, power connectors and a reset button.
 
-![Output Components Board Schematic]()
+![Output Board Schematic]()
+![Output Board PCB]()
 
+### Sensor Input PCB
+The circuit below is an exploitation circuit for the Raspberry Pi4. We have equipped it with a MPU6050 sensor for gating axial position and acceleration data of the rover.
+Via the I2C circuit on the board, the Raspberry is able to gate and send data to all the orders boards. Let’s remember that the Raspberry is equipped with a high definition camera.
 
+![Input Board Schematic]()
+![Input Board PCB]()
 
+##  Computer-Aided Manufacturing (CAM) : 
+### Layers Design
+The PCBs were fabricated using a CNC milling machine, ensuring precise trace routing and accurate drilling for through-holes and surface-mount components. 
+But between the PCB design and its fabrication with the CNC machine, there is an important step. This step consists of creating the CNC Jobs Gcode files with the software FLATCAM.
+The picture here below shows the process while we were creating the files for the Output Board.
+The principle of this step is to indicate the size of the different drilling bits we are using on our CNC machine and other important configurations such as the speed of the bits and the depth for drilling.
+
+![Flatcam configuration processing]()
+
+### CNC Milling and Drilling
+The PCBs were fabricated using the Fox Alien 4040-XE shown in the picture right below. By using appropriated milling bites, we have been able to make our Printed Circuits Boards with a really high finesse of quality. 
+
+![Pictures of the CNC machine]
+
+### Soldering and Testing
+After fabrication, components were mounted on the PCBs and soldered manually. 
+Despite the high density of the pins on the boards, our electronic team members have been able to solder them without any short circuit and have adjusted the circuit as needed in function of the inconvenience that occurred.  
+Here are the pictures of the different PCBs we have made.
+
+![Input Board PCB]()
+
+![Output Board PCB]()
+
+![Energy management Board PCB]()
 
