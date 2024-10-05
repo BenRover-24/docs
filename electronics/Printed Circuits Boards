@@ -71,7 +71,7 @@ But between the PCB design and its fabrication with the CNC machine, there is an
 The picture here below shows the process while we were creating the files for the Output Board.
 The principle of this step is to indicate the size of the different drilling bits we are using on our CNC machine and other important configurations such as the speed of the bits and the depth for drilling.
 
-![Flatcam configuration processing]()
+![Flatcam configuration processing](https://github.com/BenRover-24/MBenRover/blob/mintlify/images/Flatcam%20configurations%20processing.png)
 
 ### CNC Milling and Drilling
 The PCBs were fabricated using the Fox Alien 4040-XE shown in the picture right below. By using appropriated milling bites, we have been able to make our Printed Circuits Boards with a really high finesse of quality. 
