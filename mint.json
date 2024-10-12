@@ -70,8 +70,15 @@
       "group": "Software Engineering",
       "pages": [
         "it/benrover-dashboard",
-        "it/ros",
-        "it/benrover-website"
+        "it/ros"
+        
+      ]
+    },
+    {
+      "group": "Design",
+      "pages": [
+        "design/logo",
+        "design/skin"
         
       ]
     }
